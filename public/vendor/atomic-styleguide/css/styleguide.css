@@ -1,0 +1,203 @@
+@charset "UTF-8";
+
+html {
+  font-size: 62.5%;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-size: 100%;
+  font-weight: inherit;
+  font-style: inherit;
+}
+
+a {
+  text-decoration: none;
+  font-weight: inherit;
+  color: inherit;
+}
+
+a img {
+  border: 0;
+}
+
+li {
+  list-style: none;
+}
+
+fieldset {
+  border: 0;
+}
+
+button {
+  border: 0;
+  text-align: left;
+  background: transparent;
+}
+
+*:focus {
+  outline: none;
+}
+
+button,
+input,
+textarea {
+  font: inherit;
+}
+
+.asg-styleguide {
+  background-color: #f8f8f8;
+  position: relative;
+  min-height: 100vh;
+}
+
+.asg-styleguide__header {
+  width: 100%;
+  padding: 20px;
+  background-color: #fff;
+  -webkit-box-shadow: 0 1px 3px rgba(51, 51, 51, 0.1);
+          box-shadow: 0 1px 3px rgba(51, 51, 51, 0.1);
+}
+
+.asg-styleguide__content {
+  padding: 20px;
+}
+
+.breadcrumbs__item {
+  font-family: "Maven Pro", sans-serif;
+  font-size: 16px;
+  text-transform: uppercase;
+  color: #333;
+  letter-spacing: 1px;
+}
+
+.breadcrumbs__item:after {
+  content: '\2192';
+  margin-left: 10px;
+  margin-right: 10px;
+  color: #ccc;
+}
+
+.breadcrumbs__item:last-child:after {
+  display: none;
+}
+
+.asg-title {
+  font-family: "Maven Pro", sans-serif;
+  font-size: 15px;
+  color: #333;
+}
+
+.asg-title--small {
+  font-size: 14px;
+}
+
+.asg-title--large {
+  font-size: 16px;
+  text-transform: uppercase;
+}
+
+.asg-text {
+  font-family: "Maven Pro", sans-serif;
+  font-size: 13px;
+  color: #333;
+}
+
+.asg-tag {
+  display: block;
+  font-family: "Maven Pro", sans-serif;
+  font-size: 15px;
+  color: #333;
+  padding: 5px 10px;
+  -webkit-transition: background-color .5s;
+  transition: background-color .5s;
+}
+
+.asg-tag:before {
+  content: '\2192';
+  margin-right: 6.66666667px;
+  color: #ccc;
+}
+
+.asg-tag:hover {
+  background-color: #f8f8f8;
+}
+
+.asg-tag:hover:before {
+  color: #333;
+}
+
+.asg-component-list {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 20px;
+}
+
+.asg-component-list__header {
+  margin-bottom: 10px;
+}
+
+.asg-component-list__content {
+  padding: 20px 10px;
+  background-color: #fff;
+  -webkit-box-shadow: 0 1px 3px rgba(51, 51, 51, 0.1);
+          box-shadow: 0 1px 3px rgba(51, 51, 51, 0.1);
+}
+
+.asg-component-list__list {
+  width: 100%;
+}
+
+.asg-component__title {
+  margin-bottom: 5px;
+}
+
+.asg-component__description {
+  display: block;
+  margin-bottom: 20px;
+}
+
+.asg-component__content {
+  margin-top: 20px;
+  padding-left: 20px;
+  border-left: 2px solid #ccc;
+}
+
+.asg-modifier__title {
+  margin-bottom: 10px;
+}
+
+.asg-modifier__render {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 20px;
+  background-color: #fff;
+  -webkit-box-shadow: 0 1px 3px rgba(51, 51, 51, 0.1);
+          box-shadow: 0 1px 3px rgba(51, 51, 51, 0.1);
+}
+
+.asg-modifier-list {
+  display: grid;
+  grid-gap: 20px;
+}
+
+.asg-modifier-list--fit {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.asg-type-list__item {
+  margin-bottom: 40px;
+}
+
+.asg-type-list__item:last-child {
+  margin-bottom: 0;
+}
+

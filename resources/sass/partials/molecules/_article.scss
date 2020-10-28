@@ -1,0 +1,36 @@
+@include block(article)
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    @include element(header)
+    {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: $rule * 3;
+    }
+
+    @include element(title)
+    {
+        width: 61%;
+        margin-bottom: $rule * 2;
+    }
+
+    @include element(intro)
+    {
+        width: 55%;
+    }
+
+    @include element(section)
+    {
+        width: 55%;
+        margin-bottom: $rule * 3;
+
+        &:last-child
+        {
+            margin-bottom: 0;
+        }
+    }
+}

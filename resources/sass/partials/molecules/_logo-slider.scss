@@ -1,0 +1,15 @@
+@include block(logo-slider)
+{
+    display: block;
+    width: 100%;
+
+    @include element(logo)
+    {
+        margin-bottom: $rule;
+    }
+
+    @include element(slider)
+    {
+        //
+    }
+}

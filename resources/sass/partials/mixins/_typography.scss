@@ -1,0 +1,61 @@
+@mixin type-default
+{
+    @include type-3;
+}
+
+@mixin type-1
+{
+    font-family: 'Skrappa Roman', sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 11rem;
+    line-height: .9;
+}
+
+@mixin type-2
+{
+    font-family: Inter, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 1.25rem;
+    line-height: 1.5;
+}
+
+@mixin type-3
+{
+    font-family: Inter, sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 1rem;
+    line-height: 1.5;
+}
+
+@mixin type-4
+{
+    font-family: Apoc, sans-serif;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 1.75rem;
+    line-height: 1;
+    //font-variant-ligatures: no-common-ligatures;
+}
+
+@mixin type-5
+{
+    font-family: Apoc, sans-serif;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 2.3rem;
+    line-height: 1;
+    //font-variant-ligatures: no-common-ligatures;
+}
+
+@mixin type-6
+{
+    font-family: Apoc, sans-serif;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 2.65rem;
+    line-height: 1;
+    //font-variant-ligatures: no-common-ligatures;
+}

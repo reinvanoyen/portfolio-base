@@ -1,0 +1,20 @@
+@include block(close-button)
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: $rule * 1.5;
+    height: $rule * 1.5;
+    border-radius: 50%;
+    background-color: $color02;
+    box-shadow: 0 0 0 0 $color02;
+    transition: all .25s;
+
+    @include global-modifier(open)
+    {
+        background-color: $color01;
+        box-shadow: 0 0 $rule / 2 $rule $color01;
+        transition: all .35s;
+        transition-delay: 1s;
+    }
+}

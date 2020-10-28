@@ -1,0 +1,44 @@
+@include block(wysiwyg)
+{
+    p, div, ul
+    {
+        margin-bottom: $rule / 2;
+
+        &:last-child
+        {
+            margin-bottom: 0;
+        }
+    }
+
+    ul, ol
+    {
+        margin-left: $rule / 1.5;
+    }
+
+    ul li,
+    ol li
+    {
+        padding-left: $rule / 3;
+        list-style: square;
+
+        &:last-child
+        {
+            margin-bottom: 0;
+        }
+    }
+
+    a
+    {
+        text-decoration: underline;
+    }
+
+    strong
+    {
+        font-weight: 700;
+    }
+
+    em
+    {
+        font-style: italic;
+    }
+}

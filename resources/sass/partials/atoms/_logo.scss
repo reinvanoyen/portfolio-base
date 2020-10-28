@@ -1,0 +1,20 @@
+@include block(logo)
+{
+    display: block;
+    width: 100%;
+
+    svg
+    {
+        overflow: visible;
+        margin: 0 auto;
+        display: block;
+        width: 100%;
+
+        path
+        {
+            stroke: $color02;
+            stroke-width: 5px;
+            fill: transparent;
+        }
+    }
+}

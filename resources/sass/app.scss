@@ -1,0 +1,36 @@
+// Main sass file for Buda Zoekt
+
+// General
+@import 'partials/reset';
+@import 'partials/config';
+
+// Mixins
+@import 'partials/mixins/util';
+@import 'partials/mixins/bem';
+@import 'partials/mixins/typography';
+
+// Layout
+@import 'partials/general';
+@import 'partials/fonts';
+
+// Atoms
+@import 'partials/atoms/title';
+@import 'partials/atoms/logo';
+@import 'partials/atoms/slider';
+@import 'partials/atoms/hamburger';
+@import 'partials/atoms/intro';
+@import 'partials/atoms/wysiwyg';
+@import 'partials/atoms/nav-item';
+@import 'partials/atoms/close-button';
+@import 'partials/atoms/link-button';
+
+// Molecules
+@import 'partials/molecules/article';
+@import 'partials/molecules/logo-slider';
+@import 'partials/molecules/text-block';
+@import 'partials/molecules/nav';
+@import 'partials/molecules/page-nav';
+
+// Organisms
+@import 'partials/organisms/page';
+@import 'partials/organisms/layout';

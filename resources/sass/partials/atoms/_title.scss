@@ -1,0 +1,11 @@
+@include block(title)
+{
+    @include type-1;
+    text-align: center;
+
+    @include modifier(medium)
+    {
+        @include type-5;
+        text-align: left;
+    }
+}

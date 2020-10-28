@@ -1,0 +1,70 @@
+html
+{
+    font-family: sans-serif;
+    font-size: 85%;
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+
+    @include breakpoint(2)
+    {
+        font-size: 75%;
+    }
+
+    @include breakpoint(3)
+    {
+        font-size: 80%;
+    }
+
+    @include breakpoint(4)
+    {
+        font-size: 90%;
+    }
+
+    @include breakpoint( 5 )
+    {
+        font-size: 100%;
+    }
+
+    @include breakpoint(6)
+    {
+        font-size: 110%;
+    }
+
+    @include breakpoint(8)
+    {
+        font-size: 120%;
+    }
+
+    @include breakpoint(9)
+    {
+        font-size: 130%;
+    }
+
+    @include breakpoint(10)
+    {
+        font-size: 140%;
+    }
+}
+
+body
+{
+    @include type-default;
+    background-color: $color05;
+}
+
+*
+{
+    outline: none;
+}
+
+::-webkit-scrollbar
+{
+    width: 18px;
+    background-color: white;
+}
+
+::-webkit-scrollbar-thumb
+{
+    background-color: black;
+    border: 3px solid white;
+}

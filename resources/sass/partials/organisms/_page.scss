@@ -1,0 +1,27 @@
+@include block(page)
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: $rule * 2;
+    padding-bottom: $rule;
+
+    @include element(head)
+    {
+        width: 100%;
+        text-align: right;
+        @include type-4;
+        margin-bottom: $rule;
+    }
+
+    @include element(body)
+    {
+        //
+    }
+
+    @include element(foot)
+    {
+        width: 100%;
+        margin-top: $rule * 4;
+    }
+}

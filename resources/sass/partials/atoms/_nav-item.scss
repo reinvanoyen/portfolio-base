@@ -1,0 +1,31 @@
+@include block(nav-item)
+{
+    position: relative;
+    @include type-6;
+    color: $color04;
+    text-align: center;
+
+    &:after
+    {
+        display: block;
+        content: '';
+        width: 100%;
+        height: $border-width-02;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        background-color: $color04;
+        opacity: 0;
+        transition: transform .25s $ease-out-squad, opacity 1s;
+        transform: scaleX(0);
+        transform-origin: 50% 0;
+    }
+
+    &:hover:after
+    {
+        opacity: 1;
+        transform: scaleX(1);
+        transform-origin: 50% 0;
+    }
+}

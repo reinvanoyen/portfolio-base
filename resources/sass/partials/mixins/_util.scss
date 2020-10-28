@@ -1,0 +1,17 @@
+@mixin clearfix // clearfix ( IE8 and above, which is fine! )
+{
+	&:after
+	{
+		content: '';
+		display: table;
+		clear: both;
+	}
+}
+
+@mixin breakpoint($i)
+{
+	@media screen and (min-width: nth($breakpoints, $i))
+	{
+		@content;
+	}
+}

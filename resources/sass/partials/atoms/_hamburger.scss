@@ -1,0 +1,83 @@
+@include block(hamburger)
+{
+    $hamburger-width: $rule * 1.25;
+    $hamburger-height: $rule / 1.25;
+    $hamburger-border-width: $border-width-04;
+    $hamburger-duration: .4s;
+    $hamburger-easing: $ease-out-squad;
+
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: $hamburger-width;
+    height: $hamburger-height;
+    cursor: pointer;
+
+    span,
+    &:after,
+    &:before
+    {
+        content: '';
+        position: absolute;
+        height: $hamburger-border-width;
+        width: $hamburger-width;
+        background-color: $color02;
+        transition: background-color $hamburger-duration $hamburger-easing, transform $hamburger-duration $hamburger-easing, opacity $hamburger-duration / 2 $hamburger-easing;
+        transform-origin: 50% 50%;
+
+        @include global-modifier(alt)
+        {
+            background-color: $color01;
+        }
+    }
+
+    @include modifier(alt)
+    {
+        span,
+        &:after,
+        &:before
+        {
+            background-color: $color02;
+
+            @include global-modifier(alt)
+            {
+                background-color: $color02;
+            }
+        }
+    }
+
+    &:after
+    {
+        top: 0;
+    }
+
+    &:before
+    {
+        bottom: 0;
+    }
+
+    @include global-modifier(open)
+    {
+        span
+        {
+            transform: translateX(-100%);
+            transform-origin: 50% 50%;
+            opacity: 0;
+        }
+
+        &:after
+        {
+            margin-top: -$hamburger-border-width / 2;
+            transform: translateY($hamburger-height / 2) rotate(45deg);
+            transform-origin: 50% 50%;
+        }
+
+        &:before
+        {
+            margin-bottom: -$hamburger-border-width / 2;
+            transform: translateY(-$hamburger-height / 2) rotate(-45deg);
+            transform-origin: 50% 50%;
+        }
+    }
+}

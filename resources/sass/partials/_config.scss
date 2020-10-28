@@ -1,0 +1,33 @@
+// colors
+
+$color01: #ffffff;
+$color02: #000000;
+$color03: #ccc;
+$color04: #e7e6d5;
+$color05: #e0d865;
+
+// breakpoints
+
+$breakpoints: (
+    650px,
+    750px,
+    1024px,
+    1150px,
+    1280px,
+    1375px,
+    1500px,
+    1600px,
+    1750px,
+    1900px,
+);
+
+// distances, lengths, margins
+
+$rule: 2rem;
+
+$border-width-01: 1px;
+$border-width-02: 2px;
+$border-width-03: 3px;
+$border-width-04: 5px;
+
+$ease-out-squad: cubic-bezier(0.5, 1, 0.89, 1);
