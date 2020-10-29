@@ -23,6 +23,10 @@
 @import 'partials/atoms/nav-item';
 @import 'partials/atoms/close-button';
 @import 'partials/atoms/link-button';
+@import 'partials/atoms/button';
+@import 'partials/atoms/quote';
+@import 'partials/atoms/photo';
+@import 'partials/atoms/loader';
 
 // Molecules
 @import 'partials/molecules/article';
@@ -30,6 +34,9 @@
 @import 'partials/molecules/text-block';
 @import 'partials/molecules/nav';
 @import 'partials/molecules/page-nav';
+@import 'partials/molecules/two-col';
+@import 'partials/molecules/photo-grid';
+@import 'partials/molecules/photo-item';
 
 // Organisms
 @import 'partials/organisms/page';

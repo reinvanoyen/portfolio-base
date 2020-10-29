@@ -5,6 +5,17 @@ $color02: #000000;
 $color03: #ccc;
 $color04: #e7e6d5;
 $color05: #e0d865;
+$color06: #f6d2ce;
+
+$theme-colors: (
+    $color01,
+    $color02,
+    $color03,
+    $color04,
+    $color05,
+    $color06,
+    #f14,
+);
 
 // breakpoints
 
@@ -24,6 +35,8 @@ $breakpoints: (
 // distances, lengths, margins
 
 $rule: 2rem;
+
+$side-width: $rule * 2.5;
 
 $border-width-01: 1px;
 $border-width-02: 2px;

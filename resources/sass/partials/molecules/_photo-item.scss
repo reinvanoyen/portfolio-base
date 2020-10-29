@@ -1,0 +1,40 @@
+@include block(photo-item)
+{
+    @include element(photo)
+    {
+        margin-bottom: $rule / 3;
+    }
+
+    @include element(source)
+    {
+        display: flex;
+        align-items: center;
+    }
+
+    @include element(author)
+    {
+        margin-right: $rule / 1.5;
+    }
+
+    @include element(project)
+    {
+        @include type-8;
+        margin-right: $rule / 1.5;
+    }
+
+    @include element(icon)
+    {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: $rule / 2;
+        height: $rule / 2;
+
+        svg
+        {
+            display: block;
+            width: 100%;
+            height: auto;
+        }
+    }
+}

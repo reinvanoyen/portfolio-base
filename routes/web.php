@@ -1,7 +1,8 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-
+use App\Http\Controllers\PageController;
+use App\Http\Controllers\ProjectController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -13,6 +14,10 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('home');
-});
+Route::get('/', [PageController::class, 'home'])->name('home');
+Route::get('manifesto', [PageController::class, 'manifesto'])->name('manifesto');
+Route::get('team', [PageController::class, 'team'])->name('team');
+Route::get('portfolio', [ProjectController::class, 'index'])->name('portfolio');
+Route::get('portfolio/{projectSlug}', [ProjectController::class, 'view'])->name('project');
+Route::get('inspiratie', [PageController::class, 'inspiration'])->name('inspiration');
+Route::get('experiment', [PageController::class, 'experiment'])->name('experiment');

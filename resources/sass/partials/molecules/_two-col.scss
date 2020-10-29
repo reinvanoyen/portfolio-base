@@ -1,0 +1,50 @@
+@include block(two-col)
+{
+    display: flex;
+    flex-direction: column;
+
+    @include breakpoint(2)
+    {
+        flex-direction: row;
+    }
+
+    @include element(col)
+    {
+        width: 100%;
+
+        &:first-child
+        {
+            margin-bottom: $rule * 2;
+        }
+
+        @include breakpoint(2)
+        {
+            width: 50%;
+
+            &:first-child
+            {
+                padding-right: $rule;
+                margin-bottom: 0;
+            }
+
+            &:last-child
+            {
+                padding-left: $rule;
+            }
+        }
+
+        @include breakpoint(3)
+        {
+
+            &:first-child
+            {
+                padding-right: $rule * 2;
+            }
+
+            &:last-child
+            {
+                padding-left: $rule * 2;
+            }
+        }
+    }
+}

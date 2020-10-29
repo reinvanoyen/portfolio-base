@@ -18,3 +18,12 @@
         transition-delay: 1s;
     }
 }
+
+@for $i from 1 through length($theme-colors)
+{
+    body.theme-#{$i}.open .close-button
+    {
+        background-color: nth($theme-colors, $i);
+        box-shadow: 0 0 $rule / 2 $rule nth($theme-colors, $i);
+    }
+}

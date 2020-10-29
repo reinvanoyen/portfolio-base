@@ -3,8 +3,14 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: $rule * 2;
-    padding-bottom: $rule;
+    padding: $rule;
+    transition: opacity 400ms;
+
+    @include breakpoint(3)
+    {
+        padding: $rule * 2;
+        padding-bottom: $rule;
+    }
 
     @include element(head)
     {
@@ -16,12 +22,17 @@
 
     @include element(body)
     {
-        //
+        width: 100%;
     }
 
     @include element(foot)
     {
         width: 100%;
         margin-top: $rule * 4;
+    }
+
+    @include global-modifier(loading)
+    {
+        opacity: 0;
     }
 }

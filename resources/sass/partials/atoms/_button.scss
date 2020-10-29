@@ -1,0 +1,41 @@
+@include block(button)
+{
+    position: relative;
+    display: inline-block;
+    padding: $rule / 3 $rule * 1.5;
+    border-radius: $rule;
+    color: $color02;
+    border: $border-width-02 solid $color02;
+    transition: none;
+    @include type-7;
+
+    &:before
+    {
+        content: '';
+        display: block;
+        position: absolute;
+        z-index: -1;
+        top: 0;
+        right: 0;
+        left: 0;
+        bottom: 0;
+        border-radius: $rule;
+        background-color: $color02;
+        transform: scale(.5);
+        opacity: 0;
+        transition: none;
+    }
+
+    &:hover
+    {
+        color: $color01;
+        transition: color .25s $ease-out-squad;
+
+        &:before
+        {
+            transition: transform .25s $ease-out-squad, opacity .75s;
+            opacity: 1;
+            transform: scale(1);
+        }
+    }
+}

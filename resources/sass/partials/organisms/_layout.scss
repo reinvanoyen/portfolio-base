@@ -1,7 +1,5 @@
 @include block(layout)
 {
-    $side-width: $rule * 2.5;
-
     width: 100%;
     min-height: 100vh;
     padding-left: $side-width;
@@ -9,6 +7,7 @@
     @include element(side)
     {
         position: fixed;
+        z-index: 9998;
         left: 0;
         top: 0;
         bottom: 0;
@@ -16,7 +15,13 @@
         justify-content: center;
         width: $side-width;
         height: 100%;
-        padding-top: $rule * 2;
+        transition: background-color .5s $ease-out-squad;
+        padding-top: $rule;
+
+        @include breakpoint(3)
+        {
+            padding-top: $rule * 2;
+        }
 
         @include global-modifier(alt)
         {
@@ -27,6 +32,7 @@
     @include element(nav)
     {
         position: fixed;
+        z-index: 1;
         top: 0;
         right: 0;
         left: 0;

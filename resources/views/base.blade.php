@@ -23,8 +23,11 @@
     <link rel="stylesheet" href="{{ mix('css/app.css') }}" />
 
 </head>
-<body class="alt">
+<body class="@yield('body_classes')">
 <div class="wrapper">
+    <div class="loader">
+        <div class="loader__inner"></div>
+    </div>
     <div class="layout">
         <div class="layout__nav">
             <div class="layout__nav-wrap">
@@ -32,27 +35,27 @@
                 <nav class="nav">
                     <ul class="nav__list">
                         <li class="nav__item">
-                            <a href="#" class="nav-item">
+                            <a href="{{ route('manifesto') }}" class="nav-item">
                                 Manifesto
                             </a>
                         </li>
                         <li class="nav__item">
-                            <a href="#" class="nav-item">
+                            <a href="{{ route('team') }}" class="nav-item">
                                 Team
                             </a>
                         </li>
                         <li class="nav__item">
-                            <a href="#" class="nav-item">
+                            <a href="{{ route('portfolio') }}" class="nav-item">
                                 Portfolio
                             </a>
                         </li>
                         <li class="nav__item">
-                            <a href="#" class="nav-item">
+                            <a href="{{ route('inspiration') }}" class="nav-item">
                                 Inspiratie
                             </a>
                         </li>
                         <li class="nav__item">
-                            <a href="#" class="nav-item">
+                            <a href="{{ route('experiment') }}" class="nav-item">
                                 Experiment
                             </a>
                         </li>
@@ -67,7 +70,8 @@
             @include('components.atoms.hamburger.default')
         </div>
         <div class="layout__content">
-            @include('components.organisms.page.default')
+            @section('content')
+            @show
         </div>
     </div>
 </div>

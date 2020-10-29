@@ -1,0 +1,11 @@
+@include block(photo-grid)
+{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: $rule * 1.5;
+
+    @include breakpoint(3)
+    {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
