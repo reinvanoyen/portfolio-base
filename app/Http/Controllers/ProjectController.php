@@ -14,17 +14,14 @@ class ProjectController extends Controller
                 'title' => 'Democrazy',
                 'body' => '
                     <p>
-                        Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                        Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when
-                        an unknown printer took a galley of type and scrambled it to make a type specimen book. It has
-                        survived not only five centuries, but also the leap into electronic typesetting, remaining
-                        essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets
-                        containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus
-                        PageMaker including versions of Lorem Ipsum.
+                        Met gemiddeld 150 concerten per jaar is Democrazy de grootste concertorganisator in het Gentse.
+                        De voortdurende updates van die concerten met de bezoekers communiceren, vraagt om een sterk
+                        communicatieplan. De website speelt hier bij Democrazy een essentiële rol in.
                     </p>
                     <p>
-                        Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                        Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s.
+                        We zorgden voor een robuuste online identiteit en zorgden ervoor dat deze zich diep kon
+                        wortelen in de werking van Democrazy. Vanuit de website vertrekt wekelijks een automatische
+                        nieuwsbrief, in het gekende Democrazy jasje en met data die steeds up-to-date is.
                     </p>
                 ',
                 'theme' => 'theme-6',
@@ -36,20 +33,53 @@ class ProjectController extends Controller
                     'Development',
                     'Automation',
                 ],
-                'cover' => 'img/dummy-project.png',
+                'thumb' => 'img/democrazy/01.png',
+                'cover' => 'img/democrazy/01.png',
                 'images' => [
-                    'img/dummy-project.png',
-                    'img/dummy-project.png',
-                    'img/dummy-project.png',
-                    'img/dummy-project.png',
-                    'img/dummy-project.png',
-                    'img/dummy-project.png',
+                    'img/democrazy/02.png',
+                    'img/democrazy/03.png',
+                    'img/democrazy/04.png',
+                    'img/democrazy/05.png',
+                    'img/democrazy/06.png',
+                    'img/democrazy/07.png',
+                    'img/democrazy/08.png',
+                    'img/democrazy/09.png',
+                ],
+            ],
+            'superkelly' => [
+                'slug' => 'superkelly',
+                'title' => 'Superkelly',
+                'body' => '
+                    <p>
+                        Superkelly!
+                    </p>
+                ',
+                'theme' => 'theme-6',
+                'tags' => [
+                    'Webdesign',
+                    'Information architecture',
+                    'UX / UI',
+                    'Development',
+                    'Automation',
+                ],
+                'url' => null,
+                'thumb' => 'img/dummy.jpg',
+                'cover' => 'img/democrazy/01.png',
+                'images' => [
+                    'img/democrazy/02.png',
+                    'img/democrazy/03.png',
+                    'img/democrazy/04.png',
+                    'img/democrazy/05.png',
+                    'img/democrazy/06.png',
+                    'img/democrazy/07.png',
+                    'img/democrazy/08.png',
+                    'img/democrazy/09.png',
                 ],
             ],
             'volta' => [
                 'slug' => 'volta',
                 'title' => 'Volta',
-                'body' => '<p>Ok....</p>',
+                'body' => '<p>Volta dit, Volta dat.</p>',
                 'theme' => 'theme-5',
                 'url' => 'https://www.volta.brussels',
                 'tags' => [
@@ -59,6 +89,7 @@ class ProjectController extends Controller
                     'Development',
                     'Automation',
                 ],
+                'thumb' => 'img/dummy-project.png',
                 'cover' => 'img/dummy-project.png',
                 'images' => [
                     'img/dummy-project.png',
@@ -73,7 +104,11 @@ class ProjectController extends Controller
             'soundofghent' => [
                 'slug' => 'soundofghent',
                 'title' => 'Sound of Ghent',
-                'body' => '<p>Ok....</p>',
+                'body' => '
+                    <p>
+                        Blablabla
+                    </p>
+                ',
                 'theme' => 'theme-7',
                 'url' => 'https://www.soundofghent.be',
                 'tags' => [
@@ -83,6 +118,57 @@ class ProjectController extends Controller
                     'Development',
                     'Automation',
                 ],
+                'thumb' => 'img/dummy-project.png',
+                'cover' => 'img/dummy-project.png',
+                'images' => [
+                    'img/dummy-project.png',
+                    'img/dummy-project.png',
+                    'img/dummy-project.png',
+                    'img/dummy-project.png',
+                    'img/dummy-project.png',
+                    'img/dummy-project.png',
+                    'img/dummy-project.png',
+                ],
+            ],
+            'musicmania' => [
+                'slug' => 'musicmania',
+                'title' => 'Music Mania Records',
+                'body' => '<p>Music Mania Records lalala</p>',
+                'theme' => 'theme-3',
+                'url' => 'https://www.musicmaniarecords.be',
+                'tags' => [
+                    'Webdesign',
+                    'Information architecture',
+                    'UX / UI',
+                    'Development',
+                    'Automation',
+                ],
+                'thumb' => 'img/dummy-project.png',
+                'cover' => 'img/dummy-project.png',
+                'images' => [
+                    'img/dummy-project.png',
+                    'img/dummy-project.png',
+                    'img/dummy-project.png',
+                    'img/dummy-project.png',
+                    'img/dummy-project.png',
+                    'img/dummy-project.png',
+                    'img/dummy-project.png',
+                ],
+            ],
+            'wonder' => [
+                'slug' => 'wonder',
+                'title' => 'Wonder',
+                'body' => '<p>Wonder</p>',
+                'theme' => 'theme-7',
+                'url' => 'https://www.wonderkortrijk.be',
+                'tags' => [
+                    'Webdesign',
+                    'Information architecture',
+                    'UX / UI',
+                    'Development',
+                    'Automation',
+                ],
+                'thumb' => 'img/dummy-project.png',
                 'cover' => 'img/dummy-project.png',
                 'images' => [
                     'img/dummy-project.png',

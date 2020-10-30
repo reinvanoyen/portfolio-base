@@ -48,6 +48,7 @@
         &:first-child
         {
             margin-top: $rule * 1;
+            margin-bottom: $rule;
         }
 
         @include breakpoint(2)

@@ -7,16 +7,6 @@
 @section('page-content')
     <!-- Article -->
     <article class="article">
-        <!--
-        <header class="article__header">
-            <div class="article__title">
-                <h1 class="title">
-                    We Like to<br />
-                    Show You
-                </h1>
-            </div>
-        </header>
-        -->
         @foreach ($projects as $p)
             <div class="article__section article__section--wide">
                 <!-- Project item -->
@@ -24,7 +14,7 @@
                     <div class="project-item__photo">
                         <!-- Photo -->
                         <div class="photo">
-                            <img src="{{ $p['cover'] }}" alt="{{ $p['title'] }}" />
+                            <img src="{{ $p['thumb'] }}" alt="{{ $p['title'] }}" />
                         </div>
                     </div>
                     <div class="project-item__label">Bekijk<br />project</div>
