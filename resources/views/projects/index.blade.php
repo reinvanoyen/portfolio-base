@@ -1,28 +1,36 @@
 @extends('page-base')
 
-@section('body_classes', 'hello')
+@section('body_classes', 'hello theme-4')
 
 @section('page-title', 'Portfolio')
 
 @section('page-content')
     <!-- Article -->
     <article class="article">
+        <!--
         <header class="article__header">
             <div class="article__title">
-                <!-- Title -->
-                <h1 class="title">Portfolio</h1>
-            </div>
-            <div class="article__intro">
-                @include('components.atoms.intro.default')
+                <h1 class="title">
+                    We Like to<br />
+                    Show You
+                </h1>
             </div>
         </header>
-        <div class="article__section">
-            @foreach ($projects as $p)
-                <a class="button" href="{{ route('project', ['projectSlug' => $p['slug'],]) }}">
-                    {{ $p['title'] }}
+        -->
+        @foreach ($projects as $p)
+            <div class="article__section article__section--wide">
+                <!-- Project item -->
+                <a class="project-item project-item--alt-{{ rand(1, 3) }}" href="{{ route('project', ['projectSlug' => $p['slug'],]) }}">
+                    <div class="project-item__photo">
+                        <!-- Photo -->
+                        <div class="photo">
+                            <img src="{{ $p['cover'] }}" alt="{{ $p['title'] }}" />
+                        </div>
+                    </div>
+                    <div class="project-item__label">Bekijk<br />project</div>
                 </a>
-            @endforeach
-        </div>
+            </div>
+        @endforeach
     </article>
 @endsection
 

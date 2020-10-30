@@ -1,0 +1,25 @@
+@include block(cta)
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: $rule * 7;
+    height: $rule * 7;
+    border-radius: 50%;
+    border: $border-width-05 solid $color07;
+    color: $color07;
+    box-shadow: $rule / 2 $rule $rule * 10 $color07;
+    cursor: pointer;
+    @include type-5;
+    line-height: 1.25;
+    text-transform: uppercase;
+
+    @for $i from 1 through length($theme-colors)
+    {
+        @include global-modifier(theme-#{$i})
+        {
+            background-color: nth($theme-colors, $i);
+        }
+    }
+}

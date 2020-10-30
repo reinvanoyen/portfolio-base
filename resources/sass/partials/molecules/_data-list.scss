@@ -1,0 +1,23 @@
+@include block(data-list)
+{
+    @include type-9;
+
+    @include element(group)
+    {
+        margin-bottom: $rule * 1.5;
+
+        &:last-child
+        {
+            margin-bottom: 0;
+        }
+    }
+
+    @include element(item)
+    {
+        a
+        {
+            text-transform: lowercase;
+            border-bottom: $border-width-01 solid $color02;
+        }
+    }
+}

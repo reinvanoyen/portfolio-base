@@ -1,0 +1,46 @@
+@include block(project-item)
+{
+    position: relative;
+    display: block;
+    width: 100%;
+
+    @include element(photo)
+    {
+        //
+    }
+
+    @include element(label)
+    {
+        position: absolute;
+        bottom: $rule;
+        right: $rule;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        width: $rule * 6;
+        height: $rule * 6;
+        background-color: $color02;
+        color: $color01;
+        border-radius: 50%;
+        @include type-2;
+        text-transform: uppercase;
+
+        @include block-modifier(alt-1)
+        {
+            top: 50%;
+            left: -$rule * 2;
+            margin-top: -$rule * 4;
+            right: initial;
+            bottom: initial;
+        }
+
+        @include block-modifier(alt-2)
+        {
+            top: -$rule * 2;
+            left: -$rule * 2;
+            right: initial;
+            bottom: initial;
+        }
+    }
+}

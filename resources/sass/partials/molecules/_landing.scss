@@ -1,0 +1,73 @@
+@include block(landing)
+{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    min-height: 100vh;
+    transition: opacity 400ms;
+
+    @include element(graphic)
+    {
+        flex-grow: 1;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 100%;
+
+        svg
+        {
+            display: block;
+            width: 90%;
+            height: auto;
+        }
+    }
+
+    @include element(cta)
+    {
+        position: absolute;
+        top: 50%;
+        left: 0;
+        transition: transform .25s;
+        transition-delay: 400ms;
+
+        @include global-modifier(open)
+        {
+            transform: scale(.35);
+            transition-delay: 0s;
+        }
+    }
+
+    @include element(deco)
+    {
+        position: absolute;
+        width: 28vw;
+        height: 28vw;
+        top: 25%;
+        right: 0;
+        transition: transform .25s;
+        transition-delay: 400ms;
+        background-image: url('../../img/eye.png');
+        background-repeat: no-repeat;
+        background-size: contain;
+
+        @include global-modifier(open)
+        {
+            transform: scale(.65);
+            transition-delay: 0s;
+        }
+
+        svg
+        {
+            display: block;
+            width: 100%;
+            height: auto;
+        }
+    }
+
+    @include global-modifier(loading)
+    {
+        opacity: 0;
+    }
+}

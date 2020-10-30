@@ -3,9 +3,10 @@
 $color01: #ffffff;
 $color02: #000000;
 $color03: #ccc;
-$color04: #e7e6d5;
+$color04: #dfcbb5;
 $color05: #e0d865;
 $color06: #f6d2ce;
+$color07: #5d00ff;
 
 $theme-colors: (
     $color01,
@@ -14,7 +15,7 @@ $theme-colors: (
     $color04,
     $color05,
     $color06,
-    #f14,
+    $color07,
 );
 
 // breakpoints
@@ -42,5 +43,7 @@ $border-width-01: 1px;
 $border-width-02: 2px;
 $border-width-03: 3px;
 $border-width-04: 5px;
+$border-width-05: 9px;
 
 $ease-out-squad: cubic-bezier(0.5, 1, 0.89, 1);
+$ease-in-out-squad: cubic-bezier(0.45, 0, 0.55, 1);

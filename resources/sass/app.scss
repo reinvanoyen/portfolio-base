@@ -27,6 +27,7 @@
 @import 'partials/atoms/quote';
 @import 'partials/atoms/photo';
 @import 'partials/atoms/loader';
+@import 'partials/atoms/cta';
 
 // Molecules
 @import 'partials/molecules/article';
@@ -37,6 +38,9 @@
 @import 'partials/molecules/two-col';
 @import 'partials/molecules/photo-grid';
 @import 'partials/molecules/photo-item';
+@import 'partials/molecules/data-list';
+@import 'partials/molecules/landing';
+@import 'partials/molecules/project-item';
 
 // Organisms
 @import 'partials/organisms/page';

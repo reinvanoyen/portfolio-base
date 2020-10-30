@@ -46,5 +46,21 @@
                 padding-left: $rule * 2;
             }
         }
+
+        @include block-modifier(one-third)
+        {
+            @include breakpoint(2)
+            {
+                &:first-child
+                {
+                    width: 63%;
+                }
+
+                &:last-child
+                {
+                    width: 37%;
+                }
+            }
+        }
     }
 }

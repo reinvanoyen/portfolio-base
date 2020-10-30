@@ -33,12 +33,22 @@
         {
             width: 55%;
         }
+
+        @include modifier(full)
+        {
+            width: 80%;
+        }
     }
 
     @include element(section)
     {
         width: 100%;
         margin-bottom: $rule * 3;
+
+        &:first-child
+        {
+            margin-top: $rule * 1;
+        }
 
         @include breakpoint(2)
         {
@@ -48,6 +58,14 @@
         &:last-child
         {
             margin-bottom: 0;
+        }
+
+        @include modifier(full)
+        {
+            @include breakpoint(2)
+            {
+                width: 90%;
+            }
         }
 
         @include modifier(wide)

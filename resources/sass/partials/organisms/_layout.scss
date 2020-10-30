@@ -3,6 +3,7 @@
     width: 100%;
     min-height: 100vh;
     padding-left: $side-width;
+    overflow: hidden;
 
     @include element(side)
     {
@@ -64,5 +65,16 @@
         position: absolute;
         top: $rule * 3;
         right: $rule * 4;
+    }
+
+    @include element(content)
+    {
+        min-height: 100vh;
+        // transition: transform .55s $ease-in-out-squad;
+
+        @include global-modifier(open)
+        {
+            // transform: translateX($rule);
+        }
     }
 }

@@ -1,7 +1,9 @@
 @extends('base')
 
-@section('body_classes', 'hello')
+@section('body_classes', 'hello theme-4')
 
 @section('content')
-    HIER STAAT DE INTRO
+
+    @include('components.molecules.landing.default')
+
 @endsection
