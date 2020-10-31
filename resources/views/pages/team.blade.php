@@ -14,7 +14,12 @@
                 <h1 class="title">Teamwork Makes the Dream work</h1>
             </div>
             <div class="article__intro">
-                @include('components.atoms.intro.default')
+                <p class="intro">
+                    1 grafisch vormgever, 1 creative developer.<br />
+                    Beiden artistiek opgeleid, maar professioneel gevormd in hetzelfde communicatiebureau, leerden
+                    elkaar 4 jaar geleden kennen, appreciëren elkaars manier van denken en besloten om als
+                    freelancers, complementair aan elkaar, de wereld verder te exploren.
+                </p>
             </div>
         </header>
         <section class="article__section article__section--wide">
@@ -29,7 +34,15 @@
                             <h3 class="title title--medium">Maïté Maekelberg</h3>
                         </div>
                         <div class="text-block__content">
-                            @include('components.atoms.wysiwyg.default')
+                            <div class="wysiwyg">
+                                <p>
+                                    Het nieuwsgierig beestje in Maïté zorgt er steeds voor dat ze al haar projecten
+                                    steeds met heel veel enthousiasme aanvat. Het op avontuur kunnen trekken in haar
+                                    hoofd en deze fantasieën omzetten naar een beeldtaal, dat is waarom de job als
+                                    grafisch vormgever haar op het lijf geschreven is.
+                                </p>
+                            </div>
+
                         </div>
                         <div class="text-block__foot">
                             <a href="maitemaekelberg-cv.pdf" class="button" target="_blank">Download CV</a>
@@ -50,7 +63,7 @@
                                     Rein werd gebeten door het web lang voordat Facebook een ding was. Rein heeft een
                                     sterke drang om creatief bezig te zijn. Die drang vond al vroeg zijn weg naar
                                     het "prutsen" met computers. Dat prutsen is ondertussen verandert in verdomd goed
-                                    weten met wat hij bezig is. Het is dan ook al meer dan tien jaar lang zijn broodwinning.
+                                    weten waarmee hij bezig is. Het is dan ook al meer dan tien jaar lang zijn broodwinning.
                                     Of het nog steeds even leuk is als vroeger? Natuurlijk, het web evolueert
                                     sneller en sneller, dus aan uitdagingen geen gebrek!
                                 </p>
