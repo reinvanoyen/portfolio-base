@@ -25,5 +25,11 @@
     {
         background-color: nth($theme-colors, $i);
         box-shadow: 0 0 $rule / 2 $rule nth($theme-colors, $i);
+
+        &:hover
+        {
+            box-shadow: 0 0 $rule / 1.25 $rule * 1.25 nth($theme-colors, $i);
+            transition-delay: 0s;
+        }
     }
 }

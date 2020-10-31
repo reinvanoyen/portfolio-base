@@ -25,6 +25,8 @@
         border-radius: 50%;
         @include type-2;
         text-transform: uppercase;
+        transition: transform .25s $ease-in-out-squad;
+        transform: scale(.9);
 
         @include block-modifier(alt-1)
         {
@@ -41,6 +43,14 @@
             left: -$rule * 2;
             right: initial;
             bottom: initial;
+        }
+    }
+
+    &:hover
+    {
+        @include element(label)
+        {
+            transform: rotate(7deg);
         }
     }
 }

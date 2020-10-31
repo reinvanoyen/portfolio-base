@@ -67,7 +67,7 @@
             </div>
         </div>
         <div class="layout__side">
-            @include('components.atoms.hamburger.default')
+            @include('components.atoms.hamburger.small')
         </div>
         <div class="layout__content">
             @section('content')

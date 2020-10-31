@@ -75,3 +75,9 @@ body
 {
     background-color: black;
 }
+
+::selection
+{
+    background-color: $color02;
+    color: $color01;
+}

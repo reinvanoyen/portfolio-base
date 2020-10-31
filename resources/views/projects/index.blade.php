@@ -6,9 +6,9 @@
 
 @section('page-content')
     <!-- Article -->
-    <article class="article">
+    <section class="project-index">
         @foreach ($projects as $p)
-            <div class="article__section article__section--wide">
+            <div class="project-index__item">
                 <!-- Project item -->
                 <a class="project-item project-item--alt-{{ rand(1, 3) }}" href="{{ route('project', ['projectSlug' => $p['slug'],]) }}">
                     <div class="project-item__photo">
@@ -21,7 +21,7 @@
                 </a>
             </div>
         @endforeach
-    </article>
+    </section>
 @endsection
 
 @section('page-prev')

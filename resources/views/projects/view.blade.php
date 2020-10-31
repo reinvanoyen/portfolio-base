@@ -32,8 +32,11 @@
                         <!-- Data list -->
                         <div class="data-list">
                             <div class="data-list__group">
-                                <div class="data-list__item">Rein</div>
-                                <div class="data-list__item">Maïté</div>
+                                @foreach ($project['team'] as $t)
+                                    <div class="data-list__item">
+                                        {{ $t }}
+                                    </div>
+                                @endforeach
                             </div>
                             <div class="data-list__group">
                                 @foreach ($project['tags'] as $t)

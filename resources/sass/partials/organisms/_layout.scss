@@ -18,6 +18,7 @@
         height: 100%;
         transition: background-color .5s $ease-out-squad;
         padding-top: $rule;
+        border-right: $border-width-01 solid $color02;
 
         @include breakpoint(3)
         {
@@ -70,11 +71,11 @@
     @include element(content)
     {
         min-height: 100vh;
-        // transition: transform .55s $ease-in-out-squad;
+        transition: opacity .4s $ease-in-out-squad;
 
         @include global-modifier(open)
         {
-            // transform: translateX($rule);
+            opacity: 0;
         }
     }
 }

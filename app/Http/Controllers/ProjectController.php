@@ -26,6 +26,11 @@ class ProjectController extends Controller
                 ',
                 'theme' => 'theme-6',
                 'url' => 'https://www.democrazy.be',
+                'team' => [
+                    'Maïté Maekelberg',
+                    'Rein Van Oyen',
+                    'i.o.v. Tallieu & Tallieu',
+                ],
                 'tags' => [
                     'Webdesign',
                     'Information architecture',
@@ -51,16 +56,24 @@ class ProjectController extends Controller
                 'title' => 'Superkelly',
                 'body' => '
                     <p>
-                        Superkelly!
+                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
+                        been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a
+                        galley of type and scrambled it to make a type specimen book. It has survived not only five
+                        centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
+                        It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum
+                        passages, and more recently with desktop publishing software like Aldus PageMaker including
+                        versions of Lorem Ipsum.
                     </p>
                 ',
                 'theme' => 'theme-6',
+                'team' => [
+                    'Maïté Maekelberg',
+                    'Rein Van Oyen',
+                ],
                 'tags' => [
-                    'Webdesign',
-                    'Information architecture',
-                    'UX / UI',
-                    'Development',
-                    'Automation',
+                    'Art direction',
+                    'Branding',
+                    'Strategy',
                 ],
                 'url' => null,
                 'thumb' => 'img/superkelly/01.png',
@@ -80,25 +93,45 @@ class ProjectController extends Controller
                 'title' => 'Sound of Ghent',
                 'body' => '
                     <p>
-                        Blablabla
+                        Uitzonderlijke tijden vragen een uitzonderlijke aanpak. Voor vijf Gentse organisaties was dit zeker waar.
+                        Dit project ontstond vanuit de drang om ook tijdens een lockdown cultuur aan te kunnen bieden.
+                        Handelsbeurs, Festival van Vlaanderen Gent, Democrazy, Miry Concertzaal en Kunstencentrum Vooruit bundelden
+                        hun krachten en Sound of Ghent was geboren. Missie: corona-proof concerten tot in de huiskamer brengen en dit met de
+                        beste beeld- en geluidskwaliteit.
+                    </p>
+                    <p>
+                        Virtuele concertgangers kopen een ticket via Ticketmatic en ontvangen onmiddellijk een e-mail met
+                        daarin hun ticket, deze wordt automatisch aan hun account gelinkt. Dit ticket geeft hen toegang
+                        tot de livestream. Daar kunnen ze tijdens het concert een gezellig praatje slaan door
+                        middel van een live chat en wie wil kan zelf virtueel mee-applaudisseren.
+                        Na afloop van het live concert zijn de opnames nog twee dagen te (her)bekijken.
+                    </p>
+                    <p>
+                        Is dit de ideale manier om cultuur te beleven? Neen, absoluut niet. Maar nood breekt wet.
+                        Snel schakelen was dus de opgave. Ondertussen is dit platform uitgegroeit tot lichtpuntje aan
+                        het einde van de tunnel.
                     </p>
                 ',
                 'theme' => 'theme-9',
                 'url' => 'https://www.soundofghent.be',
+                'team' => [
+                    'Rein Van Oyen',
+                    'i.o.v. Ship of Fools'
+                ],
                 'tags' => [
-                    'Webdesign',
-                    'Information architecture',
-                    'UX / UI',
-                    'Development',
+                    'Frontend development',
+                    'Backend development',
                     'Automation',
+                    'Consultancy',
                 ],
                 'thumb' => 'img/soundofghent/05.png',
                 'cover' => 'img/soundofghent/03.png',
                 'images' => [
                     'img/soundofghent/01.png',
+                    'img/soundofghent/05.png',
+                    'img/soundofghent/06.png',
                     'img/soundofghent/02.png',
                     'img/soundofghent/04.png',
-                    'img/soundofghent/05.png',
                 ],
             ],
             'volta' => [
@@ -107,6 +140,11 @@ class ProjectController extends Controller
                 'body' => '<p>Volta dit, Volta dat.</p>',
                 'theme' => 'theme-5',
                 'url' => 'https://www.volta.brussels',
+                'team' => [
+                    'Maïté Maekelberg',
+                    'Rein Van Oyen',
+                    'i.o.v. Tallieu & Tallieu',
+                ],
                 'tags' => [
                     'Webdesign',
                     'Information architecture',
@@ -132,6 +170,11 @@ class ProjectController extends Controller
                 'body' => '<p>Music Mania Records lalala</p>',
                 'theme' => 'theme-3',
                 'url' => 'https://www.musicmaniarecords.be',
+                'team' => [
+                    'Maïté Maekelberg',
+                    'Rein Van Oyen',
+                    'i.o.v. Tallieu & Tallieu',
+                ],
                 'tags' => [
                     'Webdesign',
                     'Information architecture',
@@ -157,6 +200,10 @@ class ProjectController extends Controller
                 'body' => '<p>Wonder</p>',
                 'theme' => 'theme-8',
                 'url' => 'https://www.wonderkortrijk.be',
+                'team' => [
+                    'Rein Van Oyen',
+                    'i.o.v. Ship of Fools',
+                ],
                 'tags' => [
                     'Webdesign',
                     'Information architecture',

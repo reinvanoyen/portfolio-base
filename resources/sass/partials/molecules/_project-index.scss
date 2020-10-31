@@ -1,0 +1,23 @@
+@include block(project-index)
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    padding-top: $rule;
+
+    @include element(item)
+    {
+        margin-bottom: $rule;
+
+        &:last-child
+        {
+            margin-bottom: 0;
+        }
+
+        @include breakpoint(2)
+        {
+            width: 80%;
+        }
+    }
+}

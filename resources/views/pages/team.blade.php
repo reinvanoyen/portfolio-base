@@ -45,10 +45,24 @@
                             <h3 class="title title--medium">Rein Van Oyen</h3>
                         </div>
                         <div class="text-block__content">
-                            @include('components.atoms.wysiwyg.default')
+                            <div class="wysiwyg">
+                                <p>
+                                    Rein werd gebeten door het web lang voordat Facebook een ding was. Rein heeft een
+                                    sterke drang om creatief bezig te zijn. Die drang vond al vroeg zijn weg naar
+                                    het "prutsen" met computers. Dat prutsen is ondertussen verandert in verdomd goed
+                                    weten met wat hij bezig is. Het is dan ook al meer dan tien jaar lang zijn broodwinning.
+                                    Of het nog steeds even leuk is als vroeger? Natuurlijk, het web evolueert
+                                    sneller en sneller, dus aan uitdagingen geen gebrek!
+                                </p>
+                                <p>
+                                    Rein is niet "your typical basement nerd". Graag denkt hij ook mee over het
+                                    vormelijke. En daar heeft hij nog oog voor ook.
+                                </p>
+                            </div>
                         </div>
                         <div class="text-block__foot">
-                            @include('components.atoms.button.default')
+                            <!-- Button -->
+                            <a href="#" class="button">Download CV</a>
                         </div>
                     </div>
 

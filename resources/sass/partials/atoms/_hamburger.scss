@@ -2,7 +2,7 @@
 {
     $hamburger-width: $rule * 1.25;
     $hamburger-height: $rule / 1.25;
-    $hamburger-border-width: $border-width-04;
+    $hamburger-border-width: $border-width-03;
     $hamburger-duration: .4s;
     $hamburger-easing: $ease-out-squad;
 
@@ -13,6 +13,7 @@
     width: $hamburger-width;
     height: $hamburger-height;
     cursor: pointer;
+    transition: opacity .5s;
 
     span,
     &:after,
@@ -29,6 +30,20 @@
         @include global-modifier(alt)
         {
             background-color: $color01;
+        }
+    }
+
+    @include modifier(small)
+    {
+        height: $hamburger-height / 1.5;
+        width: $hamburger-width / 1.5;
+
+        span,
+        &:after,
+        &:before
+        {
+            height: $border-width-02;
+            width: $hamburger-width / 1.5;
         }
     }
 
@@ -78,6 +93,29 @@
             margin-bottom: -$hamburger-border-width / 2;
             transform: translateY(-$hamburger-height / 2) rotate(-45deg);
             transform-origin: 50% 50%;
+        }
+    }
+
+    @include modifier(small)
+    {
+        @include global-modifier(open)
+        {
+            transition: opacity .5s;
+            transition-delay: 1s;
+            opacity: 0;
+
+            &:after
+            {
+                margin-top: -$border-width-02 / 2;
+                transform: translateY(($hamburger-height / 1.5) / 2) rotate(45deg);
+            }
+
+            &:before
+            {
+                margin-bottom: -$border-width-02 / 2;
+                transform: translateY(-($hamburger-height / 1.5) / 2) rotate(-45deg);
+                transform-origin: 50% 50%;
+            }
         }
     }
 }

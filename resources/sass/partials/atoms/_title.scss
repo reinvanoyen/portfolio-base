@@ -8,4 +8,9 @@
         @include type-5;
         text-align: left;
     }
+
+    @include element(offset)
+    {
+        margin-right: $rule * 1.25;
+    }
 }
