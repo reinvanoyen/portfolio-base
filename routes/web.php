@@ -3,6 +3,8 @@
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\PageController;
 use App\Http\Controllers\ProjectController;
+use App\Http\Controllers\InspirationController;
+
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -19,5 +21,5 @@ Route::get('manifesto', [PageController::class, 'manifesto'])->name('manifesto')
 Route::get('team', [PageController::class, 'team'])->name('team');
 Route::get('portfolio', [ProjectController::class, 'index'])->name('portfolio');
 Route::get('portfolio/{projectSlug}', [ProjectController::class, 'view'])->name('project');
-Route::get('inspiratie', [PageController::class, 'inspiration'])->name('inspiration');
+Route::get('inspiratie', [InspirationController::class, 'index'])->name('inspiration');
 Route::get('experiment', [PageController::class, 'experiment'])->name('experiment');

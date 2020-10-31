@@ -32,7 +32,7 @@
                             @include('components.atoms.wysiwyg.default')
                         </div>
                         <div class="text-block__foot">
-                            @include('components.atoms.button.default')
+                            <a href="maitemaekelberg-cv.pdf" class="button" target="_blank">Download CV</a>
                         </div>
                     </div>
 
@@ -62,7 +62,7 @@
                         </div>
                         <div class="text-block__foot">
                             <!-- Button -->
-                            <a href="#" class="button">Download CV</a>
+                            <a href="reinvanoyen-cv.pdf" class="button" target="_blank">Download CV</a>
                         </div>
                     </div>
 
