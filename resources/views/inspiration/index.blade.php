@@ -13,9 +13,27 @@
                 <!-- Photo item -->
                 <div class="photo-item">
                     <div class="photo-item__photo">
-                        <div class="photo">
-                            <img src="{{ $i['cover'] }}" />
+
+                        <div class="slideshow">
+                            <div class="slideshow__cover">
+                                <div class="photo">
+                                    <img src="{{ $i['cover'] }}" />
+                                </div>
+                            </div>
+                            @foreach ($i['images'] as $img)
+                                <div class="slideshow__item">
+                                    <div class="photo">
+                                        <img src="{{ $img }}" />
+                                    </div>
+                                </div>
+                            @endforeach
+                            <div class="slideshow__item">
+                                <div class="photo">
+                                    <img src="{{ $i['cover'] }}" />
+                                </div>
+                            </div>
                         </div>
+
                     </div>
                     <div class="photo-item__source">
                         <span class="photo-item__author">{{ $i['author'] }}</span>

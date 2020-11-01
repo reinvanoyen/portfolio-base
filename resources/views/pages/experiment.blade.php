@@ -11,7 +11,7 @@
         <div class="overlay__content">
             <!-- Modal -->
             <div class="modal">
-                <div class="modal__close">
+                <div class="modal__close js-toggle-overlay">
                     <div class="modal__close-button"></div>
                 </div>
                 <div class="modal__content">
@@ -61,13 +61,13 @@
         </header>
         <div class="article__section article__section--full">
             <!-- Photo -->
-            <div class="photo">
+            <div class="photo js-toggle-overlay">
                 <img src="img/dummy.jpg" alt="Experiment" />
             </div>
         </div>
         <div class="article__section article__section--full">
             <!-- Photo -->
-            <div class="photo">
+            <div class="photo js-toggle-overlay">
                 <img src="img/dummy.jpg" alt="Experiment" />
             </div>
         </div>
