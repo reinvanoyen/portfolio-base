@@ -30,16 +30,16 @@
                     <div class="wysiwyg">
                         <p>
                             2020 maakt het ons meer dan duidelijk. In tijden als deze wordt van een mens, een bedrijf
-                            en zéker van de cultuursector verwacht om <strong>flexibel</strong> te zijn en snel te schakelen. Op
+                            en zéker van de cultuursector verwacht om flexibel te zijn en snel te schakelen. Op
                             budgetten werd reeds jaren ervoor beknipt. Meer dan ooit wordt er verwacht om
                             creatief te zijn en het web te omarmen. Waar vroeger de website slechts een afgeleide
                             was van de geprinte communicatie, wordt ondertussen duidelijk dat 2020 heel zeker
                             voor de ommekeer zorgt.
                         </p>
                         <p>
-                            Nooit eerder werd er zo berust op <strong>digitale communicatie</strong>. Wij als hévige fans van het
-                            web, marketing automation en social media streven er dan ook naar om deze als
-                            minstens gelijkwaardig te beschouwen aan print.
+                            Nooit eerder werd er zo berust op digitale communicatie. Wij, hévige fans van het web,
+                            marketing automation en social media streven er dan ook naar om deze minstens
+                            gelijkwaardig als print te beschouwen.
                         </p>
                         <p>
                             En geloof ons, wie ten volle kan ontwerpen voor het dynamische web,

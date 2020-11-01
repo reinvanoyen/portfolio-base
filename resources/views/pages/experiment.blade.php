@@ -27,10 +27,10 @@
                             <div class="wysiwyg">
                                 <p>
                                     Hands-on als we zijn, konden we de kans niet laten liggen om reeds vormelijk te
-                                    experimenteren. Maar laat ons eerst samen aan tafel zitten alvorens wij onze
-                                    aanzet volledig uit de doeken doen. Ideeën, enthousiasme en inspiratie genoeg.
-                                    Toch zijn wij er van overtuigd dat luisteren naar én brainstormen met jullie
-                                    tot een duidelijkere eerste voorstel leidt. Een snel en efficiënt, maar tegelijk
+                                    experimenteren. Maar laat ons eerst samen aan tafel zitten alvorens wij onze aanzet
+                                    volledig uit de doeken doen. Ideeën, enthousiasme en inspiratie genoeg! Toch zijn
+                                    wij er van overtuigd dat luisteren naar én brainstormen met jullie tot een
+                                    duidelijker eerste voorstel leidt. Een snel en efficiënt maar tegelijk
                                     doorgedreven proces, daar hebben we jullie hulp bij nodig. Dat is communicatie.
                                     Dat is teamwork.
                                 </p>
