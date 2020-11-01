@@ -14,9 +14,9 @@
                 <p class="intro">
                     Wij zijn geen standaard team. Wij zijn een team met visie, standpunten en een mening.
                     Voor onze klant en voor de klant van onze klant. Werken voor een klant is niet ons doel.
-                    Met een klant werken, en elkaars standpunten verweven tot één gemeenschappelijk project
+                    Met een klant werken en elkaars standpunten verweven tot één gemeenschappelijk project
                     waar alle partijen trots op kunnen zijn. Dát is waar wij naar streven.
-                    En dit is ons idee erover.
+                    Hieronder alvast ons idee erover.
                 </p>
             </div>
         </header>
@@ -114,22 +114,21 @@
                 <div class="text-block__content">
                     <div class="wysiwyg">
                         <p>
-                            Functionaliteit staat bij ons op het hoogste schavot én met reden. Denk even aan jezelf en
-                            aan jouw surfgedrag. Hoe vluchtig bekijk je een website? Hoe efficiënt wil jij online een
-                            ticket kunnen kopen? Juist. Zo snel mogelijk! Duidelijkheid is hier dus de boodschap en
-                            daar zijn wij predikers van. En niet alleen online is dit van tel. Een affiche, de
+                            Functionaliteit staat bij ons op het hoogste schavot én met reden. Denk even aan jezelf
+                            en aan jouw surfgedrag. Hoe vluchtig bekijk je een website? Hoe efficiënt wil jij online
+                            een ticket kunnen kopen? Juist. Zo snel mogelijk! Duidelijkheid is hier dus de boodschap
+                            en daar zijn wij predikers van. En niet alleen online is dit van tel. Een affiche, de
                             maandelijkse kalender of signalisatie, allen dragen ze bij tot hoe de bezoekers het
                             kunstencentrum ervaren.
                         </p>
                         <p>
-                            De branding op zich is geen kunstwerk. De kunst moet net gecreëerd en ervaren worden
-                            wanneer de boodschap zijn doel bereikt. Dat is wanneer BUDA impact maakt.
+                            Komt de boodschap over? Dan kan BUDA impact maken.
                         </p>
                         <p>
                             Ook voor jullie als medewerkers achter het computerscherm is functionaliteit een
                             belangrijke pijler. Data centraliseren, dat zorgt ervoor dat content management een
-                            klusje van een kwartier wordt. Gedaan met copy-pasten en voortdurend te controleren
-                            of data op elk medium exact dezelfde is!
+                            klusje van een kwartier wordt. Gedaan met copy-pasten en voortdurend te controleren of
+                            data op elk medium exact dezelfde is!
                         </p>
                     </div>
                 </div>
