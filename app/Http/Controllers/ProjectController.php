@@ -19,9 +19,9 @@ class ProjectController extends Controller
                         communicatieplan. De website speelt hier bij Democrazy een essentiële rol in.
                     </p>
                     <p>
-                        We zorgden voor een robuuste online identiteit en zorgden ervoor dat deze zich diep kon
-                        wortelen in de werking van Democrazy. Vanuit de website vertrekt wekelijks een automatische
-                        nieuwsbrief, in het gekende Democrazy jasje en met data die steeds up-to-date is.
+                        We ontwierpen een robuuste, tikkeltje punky online identiteit en zorgden ervoor dat de website
+                        zich diep kon wortelen in de werking van Democrazy. Vanuit de website vertrekt wekelijks de
+                        nieuwsbrief, en dit volledig geautomatiseerd met ge-update data uit het cms-systeem.
                     </p>
                 ',
                 'theme' => 'theme-6',
@@ -90,18 +90,17 @@ class ProjectController extends Controller
                 'title' => 'Sound of Ghent',
                 'body' => '
                     <p>
-                        Uitzonderlijke tijden vragen een uitzonderlijke aanpak. Dit project ontstond vanuit de
-                        drang om ook tijdens een lockdown cultuur aan te kunnen bieden. Handelsbeurs, Festival van
-                        Vlaanderen Gent, Democrazy, Miry Concertzaal en Kunstencentrum Vooruit bundelden hun krachten
-                        en Sound of Ghent was geboren. Missie: corona-proof concerten tot in de huiskamer brengen en
-                        dit met de beste beeld- en geluidskwaliteit.
+                        Uitzonderlijke tijden vragen een uitzonderlijke aanpak. Dit project ontstond vanuit de drang om
+                        ook tijdens een lockdown cultuur aan te kunnen bieden. Handelsbeurs, Festival van Vlaanderen Gent,
+                        Democrazy, Miry Concertzaal en Kunstencentrum Vooruit bundelden hun krachten en Sound of Ghent
+                        was geboren. Missie: corona-proof concerten tot in de huiskamer brengen en dit met de beste beeld- en geluidskwaliteit.
                     </p>
                     <p>
                         Virtuele concertgangers kopen een ticket via Ticketmatic en ontvangen onmiddellijk een e-mail
                         met daarin hun ticket, deze wordt automatisch aan hun account gelinkt. Dit ticket geeft hen
                         toegang tot de livestream. Daar kunnen ze tijdens het concert een gezellig praatje slaan
-                        door middel van een live chat en wie wil kan zelf virtueel mee-applaudisseren. Na
-                        afloop van het live concert zijn de opnames nog twee dagen te (her)bekijken.
+                        door middel van een live chat en wie wil kan zelfs virtueel mee-applaudisseren. Na afloop
+                        van het live concert zijn de opnames nog twee dagen te (her)bekijken.
                     </p>
                 ',
                 'theme' => 'theme-9',
