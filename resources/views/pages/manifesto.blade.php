@@ -60,7 +60,7 @@
                 <div class="text-block__content">
                     <div class="wysiwyg">
                         <p>
-                            De branding voor Buda is de vormelijke weergave van het DNA van het kunstencentrum. Het is
+                            De branding voor BUDA is de vormelijke weergave van het DNA van het kunstencentrum. Het is
                             zowel trendgevoelig als tijdloos. Branding vraagt een bepaalde neutraliteit zodat deze over
                             alle leeftijden heen kan gesmaakt worden. Op die manier wordt ieders aandacht getrokken.
                             Dat maakt een branding tevens duurzaam.
@@ -85,11 +85,20 @@
                 <div class="text-block__content">
                     <div class="wysiwyg">
                         <p>
-                            Een kunstencentrum als Buda is voortdurend in beweging. Een goede dynamic brand beweegt
-                            mee met een organisatie. Dynamic branding wil zeggen dat het speelveld voor de branding
-                            ruimer is dan bij traditionele branding. Wel worden er duidelijke spelregels opgesteld.
-                            Een dynamic brand, daar kan je de toekomst mee in. Dit is een must in een voortdurend
-                            veranderende wereld waar zowel online als offline media nooit stilstaan.
+                            Een dynamisch kunstencentrum als BUDA vraagt om een dynamische branding. Een goede dynamic
+                            brand gaat uit van één of meerdere vaste elementen (logo, kleur, typografie,…) vastgelegd
+                            in een styleguide, maar biedt ruimte om de overige elementen variabel in te vullen.
+                            Het speelveld bij dynamic branding is ruimer dan bij traditionele branding.
+                            De identiteit blijft herkenbaar, mits het respecteren van duidelijke spelregels.
+                            Een dynamic brand beweegt mee met de organisatie en met de tijdsgeest. Dit is een must in
+                            een continu evoluerende wereld waar zowel online als offline media nooit stilstaan.
+                            Een dynamic brand, daar kan je de toekomst mee in.
+                        </p>
+                        <p>
+                            Dynamiek creëeren betekent ook het loslaten van de statische beeldtaal. Branding is meer
+                            dan ooit ook letterlijk in beweging. Video, animatie en interactie op platformen als
+                            Instagram, het kan vandaag niet meer genegeerd worden. Ook daar biedt een dynamic
+                            brand oplossingen voor.
                         </p>
                     </div>
                 </div>
