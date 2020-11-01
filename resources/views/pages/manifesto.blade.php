@@ -54,16 +54,22 @@
             <div class="text-block">
                 <div class="text-block__title">
                     <h2 class="title title--medium">
-                        <span class="title__offset">2.</span> Branding must be easy on the eyes
+                        <span class="title__offset">2.</span> There is only one first impression
                     </h2>
                 </div>
                 <div class="text-block__content">
                     <div class="wysiwyg">
                         <p>
-                            Branding moet mooi zijn. Naar goede branding moet je willen kijken. Het moet de aandacht
-                            op een positieve manier trekken. Het trendgevoelige aan het tijdloze linken. Een
-                            knipoog naar het verleden, maar binnen tien jaar ook nog steeds mooi. Geen gemakkelijke
-                            opgave, maar met gevoel voor estethiek én de juiste know-how veel haalbaarder.
+                            De branding voor Buda is de vormelijke weergave van het DNA van het kunstencentrum. Het is
+                            zowel trendgevoelig als tijdloos. Branding vraagt een bepaalde neutraliteit zodat deze over
+                            alle leeftijden heen kan gesmaakt worden. Op die manier wordt ieders aandacht getrokken.
+                            Dat maakt een branding tevens duurzaam.
+                        </p>
+                        <p>
+                            Mooie branding is zowel typografisch als beeldend evenwichtig en leesbaar. Geen zwaar
+                            doordachte artistieke concepten waar uitleg bij nodig is om het te begrijpen. Branding
+                            moet interpreteerbaar zijn. Pas dan kan je herkenbaarheid creëeren.
+                            You only have one shot!
                         </p>
                     </div>
                 </div>

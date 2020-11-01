@@ -153,13 +153,11 @@ class ProjectController extends Controller
                 'thumb' => 'img/volta/01.png',
                 'cover' => 'img/volta/01.png',
                 'images' => [
-                    'img/volta/01.png',
-                    'img/volta/01.png',
-                    'img/volta/01.png',
-                    'img/volta/01.png',
-                    'img/volta/01.png',
-                    'img/volta/01.png',
-                    'img/volta/01.png',
+                    'img/volta/04.png',
+                    'img/volta/03.png',
+                    'img/volta/02.png',
+                    'img/volta/05.png',
+                    'img/volta/06.png',
                 ],
             ],
             'musicmania' => [
@@ -200,6 +198,8 @@ class ProjectController extends Controller
                     'img/musicmania/03.png',
                     'img/musicmania/04.png',
                     'img/musicmania/05.png',
+                    'img/musicmania/06.png',
+                    'img/musicmania/07.png',
                 ],
             ],
             'wonder' => [
