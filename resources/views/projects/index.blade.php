@@ -1,6 +1,6 @@
 @extends('page-base')
 
-@section('body_classes', 'hello theme-4')
+@section('body_classes', 'hello theme-3')
 
 @section('page-title', 'Portfolio')
 

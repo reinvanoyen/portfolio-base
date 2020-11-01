@@ -1,6 +1,6 @@
 @extends('page-base')
 
-@section('body_classes', 'hello alt theme-5')
+@section('body_classes', 'hello alt theme-1')
 
 @section('page-title', 'Manifesto')
 
@@ -107,7 +107,7 @@
             <div class="text-block">
                 <div class="text-block__title">
                     <h2 class="title title--medium">
-                        <span class="title__offset">4.</span> Ease of use makes impact
+                        <span class="title__offset">4.</span> Ease of use makes impact.
                     </h2>
                 </div>
                 <div class="text-block__content">

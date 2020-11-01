@@ -1,6 +1,6 @@
 @extends('base')
 
-@section('body_classes', 'hello theme-4')
+@section('body_classes', 'hello theme-1')
 
 @section('content')
 
