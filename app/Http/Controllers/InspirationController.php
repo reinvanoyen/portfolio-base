@@ -26,7 +26,7 @@ class InspirationController extends Controller
                     'img/inspiration/2/iba-4.png',
                     'img/inspiration/2/iba-5.png',
                 ],
-                'url' => 'https://www.pentagram.com',
+                'url' => 'https://www.pentagram.com/work/iba-27?rel=sector&rel-id=7',
             ],
             [
                 'author' => 'North Design',
@@ -63,7 +63,7 @@ class InspirationController extends Controller
                     'img/inspiration/6/steep-3.png',
                     'img/inspiration/6/steep-4.png',
                 ],
-                'url' => 'https://christopherdoyle.co',
+                'url' => 'https://christopherdoyle.co/projects/steep-st/',
             ],
             [
                 'author' => 'Pentagram',
@@ -74,7 +74,7 @@ class InspirationController extends Controller
                     'img/inspiration/7/obv-3.png',
                     'img/inspiration/7/obv-4.png',
                 ],
-                'url' => 'https://www.pentagram.com',
+                'url' => 'https://www.pentagram.com/work/opera-ballet-vlaanderen?rel=sector&rel-id=7',
             ],
             [
                 'author' => 'Werklig',
@@ -84,21 +84,21 @@ class InspirationController extends Controller
                     'img/inspiration/8/mv-2.png',
                     'img/inspiration/8/mv-3.png',
                 ],
-                'url' => 'https://www.werklig.com',
+                'url' => 'https://werklig.com/project/mall-voice/',
             ],
             [
                 'author' => 'Base Design',
                 'title' => 'Modemuseum Antwerpen',
                 'cover' => 'img/inspiration/9/momu-1.png',
                 'images' => [],
-                'url' => 'https://www.basedesign.com',
+                'url' => 'https://www.momu.be',
             ],
             [
                 'author' => 'Snohetta',
                 'title' => 'Moniker',
                 'cover' => 'img/inspiration/10/moniker-1.png',
                 'images' => [],
-                'url' => 'https://www.snohetta.com',
+                'url' => 'https://www.snohetta.com/projects/519-moniker',
             ],
             [
                 'author' => 'Basics09',
