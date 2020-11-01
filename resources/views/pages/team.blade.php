@@ -15,10 +15,11 @@
             </div>
             <div class="article__intro">
                 <p class="intro">
-                    1 grafisch vormgever, 1 creative developer.<br />
-                    Beiden artistiek opgeleid, maar professioneel gevormd in hetzelfde communicatiebureau, leerden
-                    elkaar 4 jaar geleden kennen, appreciëren elkaars manier van denken en besloten om als
-                    freelancers, complementair aan elkaar, de wereld verder te exploren.
+                    1 grafisch vormgever, 1 creative developer. 1+1=1.<br />
+                    Beiden artistiek opgeleid, maar professioneel gevormd in
+                    hetzelfde communicatiebureau, leerden elkaar 4 jaar geleden kennen.
+                    Uit appreciatie voor elkanders manier van denken, besloten ze
+                    als team verder te gaan.
                 </p>
             </div>
         </header>
@@ -36,10 +37,18 @@
                         <div class="text-block__content">
                             <div class="wysiwyg">
                                 <p>
-                                    Het nieuwsgierig beestje in Maïté zorgt er steeds voor dat ze al haar projecten
-                                    steeds met heel veel enthousiasme aanvat. Het op avontuur kunnen trekken in haar
-                                    hoofd en deze fantasieën omzetten naar een beeldtaal, dat is waarom de job als
-                                    grafisch vormgever haar op het lijf geschreven is.
+                                    Van kleins af aan was Maïté begeesterd door alles wat rondom haar aanwezig was.
+                                    Al was het een draadje. Die nieuwsgierigheid en focus zorgt er vandaag de dag nog
+                                    steeds voor dat ze zich graag onderdompelt in een heel divers spectrum aan onderwerpen.
+                                    Net daarom is de job van grafisch vormgever haar op het lijf geschreven.
+                                </p>
+                                <p>
+                                    Van architectuur tot food, van cultuur tot sport, het draagt allen bij tot één
+                                    groot avontuur. Het is dan ook een onuitputtelijke bron van inspiratie en verwondering.
+                                </p>
+                                <p>
+                                    Het leukste van dit alles? Dankzij haar gevoel voor esthetiek draagt ze zelf haar
+                                    steentje bij tijdens het vertellen van zo’n inspirerende verhalen.
                                 </p>
                             </div>
 
