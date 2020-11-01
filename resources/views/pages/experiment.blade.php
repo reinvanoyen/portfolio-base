@@ -18,17 +18,21 @@
                     <!-- Text block -->
                     <div class="text-block">
                         <div class="text-block__title">
-                            <h5 class="title title--medium">Form Follows Function</h5>
+                            <h5 class="title title--medium">
+                                First things first!
+                            </h5>
                         </div>
                         <div class="text-block__content">
                             <!-- Wysiwyg -->
                             <div class="wysiwyg">
                                 <p>
-                                    Wanneer speelt die ene film? Hoe koop ik tickets? Wat is er dit weekend te doen? Deze en nog
-                                    zovele vragen moet Buda op een zo functioneel en aangenaam mogelijke manier kunnen
-                                    beantwoorden. Offline, maar ook steeds meer online. Een duidelijke affiche, een handige
-                                    website of een Instagram-post. Allen dragen ze bij aan hoe bezoekers het kunstencentrum
-                                    ervaren.
+                                    Hands-on als we zijn, konden we de kans niet laten liggen om reeds vormelijk te
+                                    experimenteren. Maar laat ons eerst samen aan tafel zitten alvorens wij onze
+                                    aanzet volledig uit de doeken doen. Ideeën, enthousiasme en inspiratie genoeg.
+                                    Toch zijn wij er van overtuigd dat luisteren naar én brainstormen met jullie
+                                    tot een duidelijkere eerste voorstel leidt. Een snel en efficiënt, maar tegelijk
+                                    doorgedreven proces, daar hebben we jullie hulp bij nodig. Dat is communicatie.
+                                    Dat is teamwork.
                                 </p>
                             </div>
                         </div>
@@ -43,74 +47,38 @@
     </div>
 
     <!-- Article -->
-    <article class="article">
-        <header class="article__header">
-            <div class="article__title">
-                <!-- Title -->
-                <h1 class="title">We Love to Play</h1>
-            </div>
-            <div class="article__intro">
-                <!-- Intro -->
-                <p class="intro">
-                    Lorem Ipsum is slechts een proeftekst uit het drukkerij- en
-                    zetterijwezen. Lorem Ipsum is de standaard proeftekst in deze
-                    bedrijfstak sinds de 16e eeuw, toen een onbekende drukker een
-                    zethaak met letters nam en ze door elkaar husselde om een fontcatalogus te maken.
-                </p>
-            </div>
-        </header>
-        <div class="article__section article__section--full">
+    <section class="project-index">
+        <div class="project-index__item">
             <!-- Photo -->
             <div class="photo js-toggle-overlay">
-                <img src="img/dummy.jpg" alt="Experiment" />
+                <img src="img/experiment/01.jpg" alt="Experiment" />
             </div>
         </div>
-        <div class="article__section article__section--full">
+        <div class="project-index__item">
             <!-- Photo -->
             <div class="photo js-toggle-overlay">
-                <img src="img/dummy.jpg" alt="Experiment" />
+                <img src="img/experiment/02.jpg" alt="Experiment" />
             </div>
         </div>
-        <div class="article__section article__section--wide">
-
-            <!-- Two col -->
-            <div class="two-col">
-                <div class="two-col__col">
-
-                    <!-- Text block -->
-                    <div class="text-block">
-                        <div class="text-block__title">
-                            <h3 class="title title--medium">Maïté Maekelberg</h3>
-                        </div>
-                        <div class="text-block__content">
-                            @include('components.atoms.wysiwyg.default')
-                        </div>
-                        <div class="text-block__foot">
-                            @include('components.atoms.button.default')
-                        </div>
-                    </div>
-
-                </div>
-                <div class="two-col__col">
-
-                    <!-- Text block -->
-                    <div class="text-block">
-                        <div class="text-block__title">
-                            <h3 class="title title--medium">Rein Van Oyen</h3>
-                        </div>
-                        <div class="text-block__content">
-                            @include('components.atoms.wysiwyg.default')
-                        </div>
-                        <div class="text-block__foot">
-                            @include('components.atoms.button.default')
-                        </div>
-                    </div>
-
-                </div>
+        <div class="project-index__item">
+            <!-- Photo -->
+            <div class="photo js-toggle-overlay">
+                <img src="img/experiment/03.png" alt="Experiment" />
             </div>
-
         </div>
-    </article>
+        <div class="project-index__item">
+            <!-- Photo -->
+            <div class="photo js-toggle-overlay">
+                <img src="img/experiment/04.jpg" alt="Experiment" />
+            </div>
+        </div>
+        <div class="project-index__item">
+            <!-- Photo -->
+            <div class="photo js-toggle-overlay">
+                <img src="img/experiment/05.png" alt="Experiment" />
+            </div>
+        </div>
+    </section>
 
 @endsection
 
