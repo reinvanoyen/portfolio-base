@@ -2,8 +2,21 @@
 {
     position: relative;
     @include type-6;
-    color: $color04;
+    color: $color01;
     text-align: center;
+
+    @for $i from 1 through length($theme-colors)
+    {
+        @include global-modifier(theme-#{$i})
+        {
+            color: nth($theme-colors, $i);
+
+            &:after
+            {
+                background-color: nth($theme-colors, $i);
+            }
+        }
+    }
 
     &:after
     {
@@ -12,10 +25,10 @@
         width: 100%;
         height: $border-width-02;
         position: absolute;
+        background-color: $color01;
         bottom: 0;
         left: 0;
         right: 0;
-        background-color: $color04;
         opacity: 0;
         transition: transform .25s $ease-out-squad, opacity 1s;
         transform: scaleX(0);
