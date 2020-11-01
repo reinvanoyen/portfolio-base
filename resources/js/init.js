@@ -23,9 +23,7 @@ export default function init(toggleNavFunction) {
     let closeOverlayEls = document.body.querySelectorAll('.modal__close-button');
 
     if (overlayEls.length) {
-        setTimeout(() => {
-            document.body.classList.add('open-overlay');
-        }, 5000);
+        setTimeout(() => document.body.classList.add('open-overlay'), 2500);
     }
 
     for (let i = 0; i < closeOverlayEls.length; i++) {
