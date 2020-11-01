@@ -17,4 +17,18 @@ export default function init(toggleNavFunction) {
         anchorEls[i].removeEventListener('click', toggleNavFunction);
         anchorEls[i].addEventListener('click', toggleNavFunction);
     }
+
+    // Automatically open overlay
+    let overlayEls = document.querySelectorAll('.overlay');
+    let closeOverlayEls = document.body.querySelectorAll('.modal__close-button');
+
+    if (overlayEls.length) {
+        setTimeout(() => {
+            document.body.classList.add('open-overlay');
+        }, 5000);
+    }
+
+    for (let i = 0; i < closeOverlayEls.length; i++) {
+        closeOverlayEls[i].addEventListener('click', e => document.body.classList.remove('open-overlay'));
+    }
 }

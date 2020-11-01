@@ -4,7 +4,6 @@ import { Transito, PreloadImagesPlugin, BodyClassesPlugin } from 'transito';
 import utils from "./utils";
 import init from "./init";
 
-
 let toggleNav = () => document.body.classList.toggle('open');
 
 let contentEl = document.getElementsByClassName('layout__content');

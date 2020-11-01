@@ -1,0 +1,44 @@
+@include block(overlay)
+{
+    position: fixed;
+    left: $side-width;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 9999;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba($color01, .85);
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity .25s;
+
+    @include element(content)
+    {
+        width: 50%;
+        transform: scale(1.25);
+        transition: transform 3s;
+
+        @include global-modifier(open-overlay)
+        {
+            transform: scale(1);
+            transition: transform .25s $ease-out-squad;
+        }
+    }
+
+    @for $i from 1 through length($theme-colors)
+    {
+        @include global-modifier(theme-#{$i})
+        {
+            background-color: rgba(nth($theme-colors, $i), .95);
+        }
+    }
+
+    @include global-modifier(open-overlay)
+    {
+        opacity: 1;
+        transition: opacity .5s $ease-out-squad;
+        pointer-events: all;
+    }
+}

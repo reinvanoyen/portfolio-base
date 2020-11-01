@@ -37,5 +37,13 @@
             opacity: 1;
             transform: scale(1);
         }
+
+        @for $i from 1 through length($theme-colors)
+        {
+            @include global-modifier(theme-#{$i})
+            {
+                color: nth($theme-colors, $i);
+            }
+        }
     }
 }

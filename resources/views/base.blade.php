@@ -24,6 +24,7 @@
 
 </head>
 <body class="@yield('body_classes')">
+@section('body')
 <div class="wrapper">
     <div class="loader">
         <div class="loader__inner"></div>
@@ -75,6 +76,7 @@
         </div>
     </div>
 </div>
+@show
 <script src="{{ mix('js/app.js')  }}"></script>
 </body>
 </html>

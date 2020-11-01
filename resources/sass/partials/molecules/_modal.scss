@@ -1,0 +1,73 @@
+@include block(modal)
+{
+    $close-button-size: $rule * 1.5;
+
+    $hamburger-width: ($rule * 1.25) / 2;
+    $hamburger-height: ($rule / 1.25) / 2;
+
+    position: relative;
+    padding: $rule * 2 $rule * 3 $rule;
+    border: $border-width-01 solid $color02;
+
+    @include element(close)
+    {
+        position: absolute;
+        top: -$close-button-size / 2.5;
+        right: -$close-button-size / 2.5;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: $close-button-size;
+        height: $close-button-size;
+        background-color: $color02;
+        border-radius: 50%;
+        cursor: pointer;
+    }
+
+    @include element(close-button)
+    {
+        position: relative;
+        width: $hamburger-width;
+        height: $hamburger-height;
+
+        &:after,
+        &:before
+        {
+            content: '';
+            display: block;
+            position: absolute;
+            width: $hamburger-width;
+            height: $border-width-02;
+            background-color: $color01;
+        }
+
+        &:after
+        {
+            top: 0;
+            margin-top: -$border-width-02 / 2;
+            transform: translateY($hamburger-height / 2) rotate(45deg);
+            transform-origin: 50% 50%;
+        }
+
+        &:before
+        {
+            bottom: 0;
+            margin-bottom: -$border-width-02 / 2;
+            transform: translateY(-$hamburger-height / 2) rotate(-45deg);
+            transform-origin: 50% 50%;
+        }
+
+
+        @for $i from 1 through length($theme-colors)
+        {
+            @include global-modifier(theme-#{$i})
+            {
+                &:after,
+                &:before
+                {
+                    background-color: nth($theme-colors, $i);
+                }
+            }
+        }
+    }
+}

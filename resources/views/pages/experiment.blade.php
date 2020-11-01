@@ -1,10 +1,46 @@
 @extends('page-base')
 
-@section('body_classes', 'hello')
+@section('body_classes', 'hello theme-4')
 
 @section('page-title', 'Experiment')
 
 @section('page-content')
+
+    <!-- Overlay -->
+    <div class="overlay">
+        <div class="overlay__content">
+            <!-- Modal -->
+            <div class="modal">
+                <div class="modal__close">
+                    <div class="modal__close-button"></div>
+                </div>
+                <div class="modal__content">
+                    <!-- Text block -->
+                    <div class="text-block">
+                        <div class="text-block__title">
+                            <h5 class="title title--medium">Form Follows Function</h5>
+                        </div>
+                        <div class="text-block__content">
+                            <!-- Wysiwyg -->
+                            <div class="wysiwyg">
+                                <p>
+                                    Wanneer speelt die ene film? Hoe koop ik tickets? Wat is er dit weekend te doen? Deze en nog
+                                    zovele vragen moet Buda op een zo functioneel en aangenaam mogelijke manier kunnen
+                                    beantwoorden. Offline, maar ook steeds meer online. Een duidelijke affiche, een handige
+                                    website of een Instagram-post. Allen dragen ze bij aan hoe bezoekers het kunstencentrum
+                                    ervaren.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="text-block__foot">
+                            <!-- Button -->
+                            <a href="#" class="button">Download CV</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
     <!-- Article -->
     <article class="article">
