@@ -164,7 +164,19 @@ class ProjectController extends Controller
                 'title' => 'Veronique Sneyaert',
                 'body' => '
                     <p>
-                        Veroniquenikeni keni nananana nana
+                        “Met elk juweel dat ik ontwerp, vertel ik een uniek verhaal. Ontroerende verhalen over
+                        liefde en vriendschap, maar ook over de kleine dingen in het leven.” De Hasseltse
+                        ontwerpster Veronique Sneyaert creëert unieke gepersonaliseerde juwelen.
+                    </p>
+                    <p>
+                        Na de explosie aan bestellingen die de website in 2018 teweegbracht besloten we om het
+                        bestelproces op haar website nog gebruiksvriendelijker te maken aan de hand van een
+                        configurator om juwelen te personaliseren. Het resultaat is een duidelijk en overzichtelijk
+                        systeem waarmee een juweel kan worden ontwerpen naar eigen zin.
+                    </p>
+                    <p>
+                        Deze website kreeg een nominatie op de  "CSS Design Awards" - website en ontving de
+                        “Special Kudos Award” en de “Best User Interface Design Award”.
                     </p>
                 ',
                 'theme' => 'theme-4',
