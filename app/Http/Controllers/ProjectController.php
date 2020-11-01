@@ -95,8 +95,8 @@ class ProjectController extends Controller
                 'title' => 'Sound of Ghent',
                 'body' => '
                     <p>
-                        Uitzonderlijke tijden vragen een uitzonderlijke aanpak. Dit project ontstond vanuit de drang om
-                        ook tijdens een lockdown cultuur te kunnen aanbieden. Handelsbeurs, Festival van Vlaanderen,
+                        Uitzonderlijke tijden vragen een uitzonderlijke aanpak. Dit project ontstond vanuit de drang om,
+                        ook tijdens een lockdown, cultuur te kunnen aanbieden. Handelsbeurs, Festival van Vlaanderen,
                         Democrazy, Miry Concertzaal en Kunstencentrum Vooruit bundelden hun krachten en Sound of Ghent
                         was geboren. Missie: corona-proof concerten tot in de huiskamer brengen en dit met de beste beeld- en geluidskwaliteit.
                     </p>
