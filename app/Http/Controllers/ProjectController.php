@@ -69,7 +69,7 @@ class ProjectController extends Controller
                         Het waarom? Het is bold, brave en met een snuifje humor. What’s not to like?
                     </p>
                 ',
-                'theme' => 'theme-6',
+                'theme' => 'theme-10',
                 'team' => [
                     'Maïté Maekelberg',
                     'Rein Van Oyen',
@@ -269,7 +269,7 @@ class ProjectController extends Controller
                         Niets handiger om het overzicht in de stock te bewaren. Een echte timesaver voor de
                         dagelijkse werking bij Music Mania. Vraag het maar aan Adriaan.
                     </p>',
-                'theme' => 'theme-3',
+                'theme' => 'theme-11',
                 'url' => 'https://www.musicmaniarecords.be',
                 'team' => [
                     'Maïté Maekelberg',
