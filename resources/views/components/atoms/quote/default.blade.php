@@ -3,6 +3,6 @@
     Maïté als een Creative Developer.
     Wij spreken en begrijpen elkaars taal.
     Wij luisteren en horen elkaar.
-    Deze synergie brengen we ook over
+    Deze synergie brengen we graag over
     naar onze klant.
 </div>

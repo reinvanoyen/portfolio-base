@@ -38,7 +38,7 @@
                         </p>
                         <p>
                             Nooit eerder werd er zo berust op digitale communicatie. Wij, hévige fans van het web,
-                            marketing automation en social media streven er dan ook naar om deze minstens
+                            marketing automation en social media, streven er dan ook naar om deze minstens
                             gelijkwaardig als print te beschouwen.
                         </p>
                         <p>
