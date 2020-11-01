@@ -38,7 +38,9 @@
                         </div>
                         <div class="text-block__foot">
                             <!-- Button -->
-                            <a href="#" class="button">Download CV</a>
+                            <a href="mailto:info@maitemaekelberg.be?subject=Re: Creatief team zoekt BUDA&body=Beste Maïté en Rein,%0D%0A%0D%0AGraag nodigen we jullie uit voor een eerste kennismaking!" class="button">
+                                Ja, wij willen afspreken!
+                            </a>
                         </div>
                     </div>
                 </div>

@@ -32,7 +32,7 @@ export default function init(toggleNavFunction) {
     let toggleOverlayEls = document.body.querySelectorAll('.js-toggle-overlay');
 
     if (overlayEls.length) {
-        setTimeout(() => document.body.classList.add('open-overlay'), 2500);
+        setTimeout(() => document.body.classList.add('open-overlay'), 3000);
     }
 
     for (let i = 0; i < toggleOverlayEls.length; i++) {

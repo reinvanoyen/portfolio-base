@@ -93,18 +93,28 @@
             <div class="text-block">
                 <div class="text-block__title">
                     <h2 class="title title--medium">
-                        <span class="title__offset">4.</span> Easy to use is what people remember
+                        <span class="title__offset">4.</span> Ease of use makes impact
                     </h2>
                 </div>
                 <div class="text-block__content">
                     <div class="wysiwyg">
                         <p>
-                            Wanneer speelt die ene film? Hoe koop ik tickets? Wat is er dit weekend te doen? Deze en
-                            nog zovele vragen moet Buda op een zo functioneel en aangenaam mogelijke manier kunnen
-                            beantwoorden. Offline, maar ook steeds meer online. Een duidelijke affiche, een
-                            handige website of een Instagram-post. Allen dragen ze bij aan hoe bezoekers het
-                            kunstencentrum ervaren. De branding zelf is geen kunstwerk, de kunst moet net
-                            gecreëerd en ervaren worden door mensen samen te brengen bij Buda.
+                            Functionaliteit staat bij ons op het hoogste schavot én met reden. Denk even aan jezelf en
+                            aan jouw surfgedrag. Hoe vluchtig bekijk je een website? Hoe efficiënt wil jij online een
+                            ticket kunnen kopen? Juist. Zo snel mogelijk! Duidelijkheid is hier dus de boodschap en
+                            daar zijn wij predikers van. En niet alleen online is dit van tel. Een affiche, de
+                            maandelijkse kalender of signalisatie, allen dragen ze bij tot hoe de bezoekers het
+                            kunstencentrum ervaren.
+                        </p>
+                        <p>
+                            De branding op zich is geen kunstwerk. De kunst moet net gecreëerd en ervaren worden
+                            wanneer de boodschap zijn doel bereikt. Dat is wanneer BUDA impact maakt.
+                        </p>
+                        <p>
+                            Ook voor jullie als medewerkers achter het computerscherm is functionaliteit een
+                            belangrijke pijler. Data centraliseren, dat zorgt ervoor dat content management een
+                            klusje van een kwartier wordt. Gedaan met copy-pasten en voortdurend te controleren
+                            of data op elk medium exact dezelfde is!
                         </p>
                     </div>
                 </div>

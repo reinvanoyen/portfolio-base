@@ -44,10 +44,7 @@ class InspirationController extends Controller
                 'author' => 'Milie J Tyler',
                 'title' => 'AIR UK',
                 'cover' => 'img/inspiration/4/air-1.png',
-                'images' => [
-                    'img/inspiration/4/air-2.png',
-                    'img/inspiration/4/air-3.png',
-                ],
+                'images' => [],
                 'url' => 'https://milliejtyler.com',
             ],
             [
