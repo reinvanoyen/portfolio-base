@@ -13,10 +13,9 @@
             <div class="article__intro">
                 <p class="intro">
                     Wij zijn geen standaard team. Wij zijn een team met visie, standpunten en een mening.
-                    Voor onze klant en voor de klant van onze klant. Werken voor een klant is niet ons doel.
-                    Met een klant werken en elkaars standpunten verweven tot één gemeenschappelijk project
-                    waar alle partijen trots op kunnen zijn. Dát is waar wij naar streven.
-                    Hieronder alvast ons idee erover.
+                    Voor onze klant en voor de klant van onze klant. Ons doel is niet werken voor iemand, maar mét
+                    iemand. Zo worden standpunten verweven tot één gemeenschappelijk project waar alle partijen trots
+                    op kunnen zijn. Dát is waar wij naar streven. Hieronder alvast ons idee erover.
                 </p>
             </div>
         </header>
