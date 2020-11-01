@@ -1,7 +1,8 @@
 @extends('page-base')
 
-@section('body_classes', 'hello alt theme-1')
+@section('title', 'Manifesto – Creatief team zoekt BUDA')
 
+@section('body_classes', 'hello alt theme-1')
 @section('page-title', 'Manifesto')
 
 @section('page-content')

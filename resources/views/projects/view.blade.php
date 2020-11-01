@@ -1,5 +1,7 @@
 @extends('page-base')
 
+@section('title', $project['title'].' – Creatief team zoekt BUDA')
+
 @section('body_classes', 'hello '.$project['theme'])
 
 @section('page-title', 'Portfolio')

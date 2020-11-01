@@ -1,5 +1,7 @@
 @extends('page-base')
 
+@section('title', 'Inspiratie – Creatief team zoekt BUDA')
+
 @section('body_classes', 'hello theme-3')
 
 @section('page-title', 'Inspiratie')

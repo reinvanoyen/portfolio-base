@@ -2,7 +2,7 @@
 <html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
 <head>
     <meta charset="UTF-8" />
-    <title>Grafisch team zoekt BUDA</title>
+    <title>@yield('title', 'Creatief team zoekt BUDA')</title>
     <base href="{{ url('/') }}" />
 
     <meta name="robots" content="index, follow" />
