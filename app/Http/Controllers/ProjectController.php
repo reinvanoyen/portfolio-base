@@ -56,7 +56,7 @@ class ProjectController extends Controller
                 'title' => 'Superkelly',
                 'body' => '
                     <p>
-                        Een brunch-, lunch- en apérobar die er uitspringt, dat was het uitgangspunt van
+                        Een brunch-, lunch- en apérobar die eruit springt, dat was het uitgangspunt van
                         creatieve strategie voor SUPERKELLY. Van naam tot signalisatie tot website, alles werd
                         uitgekiend en dit met een beperkt budget en met oog voor ecologie. Startend vanaf
                         januari 2021 wordt SUPERKELLY de bar aan de Brugse Poort waar je niet enkel op de
@@ -159,6 +159,76 @@ class ProjectController extends Controller
                     'img/volta/06.png',
                 ],
             ],
+            'veronique-sneyaert' => [
+                'slug' => 'veronique-sneyaert',
+                'title' => 'Veronique Sneyaert',
+                'body' => '
+                    <p>
+                        Veroniquenikeni keni nananana nana
+                    </p>
+                ',
+                'theme' => 'theme-4',
+                'url' => 'https://www.veroniquesneyaert.be',
+                'team' => [
+                    'Maïté Maekelberg',
+                    'Rein Van Oyen',
+                    'i.o.v. Tallieu & Tallieu',
+                ],
+                'tags' => [
+                    'Webdesign',
+                    'Information architecture',
+                    'UX / UI',
+                    'Development',
+                    'Automation',
+                ],
+                'thumb' => 'img/veroniquesneyaert/01.png',
+                'cover' => 'img/veroniquesneyaert/01.png',
+                'images' => [
+                    'img/veroniquesneyaert/02.png',
+                    'img/veroniquesneyaert/03.png',
+                    'img/veroniquesneyaert/04.png',
+                    'img/veroniquesneyaert/05.jpg',
+                    'img/veroniquesneyaert/06.png',
+                    'img/veroniquesneyaert/07.png',
+                    'img/veroniquesneyaert/08.png',
+                    'img/veroniquesneyaert/09.jpg',
+                ],
+            ],
+            'wonder' => [
+                'slug' => 'wonder',
+                'title' => 'Wonder',
+                'body' => '
+                    <p>
+                        Creatief Kortrijk slaat terug met het gloednieuwe stadsfestival WONDER. Een verrassende
+                        reis langs creativiteit, design en muziek voor jong en oud.
+                    </p>
+                    <p>
+                        Hou je smartphone in de hand en op de interactieve kaart zie je waar je je bevindt in Kortrijk. Zo kan je van locatie naar
+                        locatie wandelen en bruisend Kortrijk ontdekken. De unieke indeling van de website werd speciaal zo ontworpen zodat
+                        deze zich goed vertaald naar het mobiele web.
+                    </p>
+                    <p>
+                        Helaas, zelfs een verwonderlijk goede website heeft geen vat op corona.
+                        Vanaf 28 oktober 2020 werd ook dit festival afgelast.
+                    </p>
+                ',
+                'theme' => 'theme-8',
+                'url' => 'https://www.wonderkortrijk.be',
+                'team' => [
+                    'Rein Van Oyen',
+                    'i.o.v. Ship of Fools',
+                ],
+                'tags' => [
+                    'Frontend development',
+                    'Backend development',
+                ],
+                'thumb' => 'img/wonder/01.png',
+                'cover' => 'img/wonder/01.png',
+                'images' => [
+                    'img/wonder/02.png',
+                    'img/wonder/03.png',
+                ],
+            ],
             'musicmania' => [
                 'slug' => 'musicmania',
                 'title' => 'Music Mania Records',
@@ -199,41 +269,6 @@ class ProjectController extends Controller
                     'img/musicmania/05.png',
                     'img/musicmania/06.png',
                     'img/musicmania/07.png',
-                ],
-            ],
-            'wonder' => [
-                'slug' => 'wonder',
-                'title' => 'Wonder',
-                'body' => '
-                    <p>
-                        Creatief Kortrijk slaat terug met het gloednieuwe stadsfestival WONDER. Een verrassende
-                        reis langs creativiteit, design en muziek voor jong en oud.
-                    </p>
-                    <p>
-                        Hou je smartphone in de hand en op de interactieve kaart zie je waar je je bevindt in Kortrijk. Zo kan je van locatie naar
-                        locatie wandelen en bruisend Kortrijk ontdekken. De unieke indeling van de website werd speciaal zo ontworpen zodat
-                        deze zich goed vertaald naar het mobiele web.
-                    </p>
-                    <p>
-                        Helaas, zelfs een verwonderlijk goede website heeft geen vat op corona.
-                        Vanaf 28 oktober 2020 werd ook dit festival afgelast.
-                    </p>
-                ',
-                'theme' => 'theme-8',
-                'url' => 'https://www.wonderkortrijk.be',
-                'team' => [
-                    'Rein Van Oyen',
-                    'i.o.v. Ship of Fools',
-                ],
-                'tags' => [
-                    'Frontend development',
-                    'Backend development',
-                ],
-                'thumb' => 'img/wonder/01.png',
-                'cover' => 'img/wonder/01.png',
-                'images' => [
-                    'img/wonder/02.png',
-                    'img/wonder/03.png',
                 ],
             ],
         ];

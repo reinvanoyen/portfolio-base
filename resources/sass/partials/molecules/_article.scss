@@ -69,6 +69,14 @@
             }
         }
 
+        @include modifier(medium)
+        {
+            @include breakpoint(2)
+            {
+                width: 65%;
+            }
+        }
+
         @include modifier(wide)
         {
             @include breakpoint(2)

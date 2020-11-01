@@ -1,0 +1,63 @@
+@include block(project-list)
+{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+
+    @include element(title)
+    {
+        display: flex;
+        justify-content: center;
+        margin-bottom: $rule * 1.5;
+        text-align: center;
+        width: 100%;
+    }
+
+    @include element(col)
+    {
+        width: 100%;
+        margin-bottom: $rule / 2;
+        text-align: center;
+
+        @include breakpoint(3)
+        {
+            text-align: left;
+            margin-bottom: 0;
+
+            @include modifier(first)
+            {
+                width: 60%;
+            }
+
+            @include modifier(last)
+            {
+                width: 40%;
+            }
+        }
+    }
+
+    @include element(list)
+    {
+        @include type-10;
+
+        li
+        {
+            margin-bottom: $rule / 2;
+
+            &:last-child
+            {
+                margin-bottom: 0;
+            }
+
+            a
+            {
+                text-decoration: underline;
+
+                &:hover
+                {
+                    text-decoration: none;
+                }
+            }
+        }
+    }
+}

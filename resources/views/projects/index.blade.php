@@ -5,7 +5,7 @@
 @section('page-title', 'Portfolio')
 
 @section('page-content')
-    <!-- Article -->
+    <!-- Project index -->
     <section class="project-index">
         @foreach ($projects as $p)
             <div class="project-index__item">
@@ -22,6 +22,14 @@
             </div>
         @endforeach
     </section>
+
+    <div class="article">
+        <div class="article__section article__section--medium">
+            <!-- Project list -->
+            @include('components.molecules.project-list.default')
+        </div>
+    </div>
+
 @endsection
 
 @section('page-prev')

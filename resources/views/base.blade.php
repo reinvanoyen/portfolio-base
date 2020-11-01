@@ -22,7 +22,7 @@
     <link rel="shortcut icon" type="image/png" href="{{ asset('icon.png') }}" />
     <link rel="stylesheet" href="{{ mix('css/app.css') }}" />
 
-    <!-- Made with love by Maïté Maekelberg en Rein Van Oyen for kunstencentrum BUDA -->
+    <!-- Made with love by Maïté Maekelberg & Rein Van Oyen for kunstencentrum BUDA -->
 </head>
 <body class="@yield('body_classes')">
 @section('body')
