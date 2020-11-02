@@ -38,7 +38,7 @@
     <link rel="manifest" href="manifest.json" />
     <meta name="msapplication-TileColor" content="#ffffff" />
     <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
-    <meta name="theme-color" content="#ffffff">
+    <meta name="theme-color" content="#000000">
 
     <!-- Made with love by Maïté Maekelberg & Rein Van Oyen for kunstencentrum BUDA -->
 </head>
