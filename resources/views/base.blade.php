@@ -5,18 +5,13 @@
     <title>@yield('title', 'Creatief team zoekt BUDA')</title>
     <base href="{{ url('/') }}" />
 
-    <meta name="robots" content="index, follow" />
+    <meta name="robots" content="noindex, nofollow" />
     <meta name="author" content="Rein Van Oyen" />
-    <meta name="robots" content="index, follow" />
-    <meta name="description" content=""/>
+    <meta name="description" content="Creatief team zoekt BUDA"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <meta property="og:title" content="Sound of Ghent" />
-    <meta property="og:description" content="De Gentse muziekscene brengt kwalitatieve livestreams tot bij jou in de living." />
-    <meta property="og:image" content="{{ asset('img/og.png') }}" />
-    <meta property="og:image:url" content="{{ asset('img/og.png') }}" />
-    <meta property="og:image:width" content="1200" />
-    <meta property="og:image:height" content="627" />
+    <meta property="og:title" content="Creatief team zoekt BUDA" />
+    <meta property="og:description" content="Maïté Maekelberg en Rein Van Oyen zoeken BUDA" />
 
     <meta property="twitter:image" content="{{ asset('img/og.png') }}" />
     <link rel="shortcut icon" type="image/png" href="{{ asset('icon.png') }}" />
@@ -37,7 +32,7 @@
     <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png" />
     <link rel="manifest" href="manifest.json" />
     <meta name="msapplication-TileColor" content="#ffffff" />
-    <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+    <meta name="msapplication-TileImage" content="ms-icon-144x144.png" />
     <meta name="theme-color" content="#000000">
 
     <!-- Made with love by Maïté Maekelberg & Rein Van Oyen for kunstencentrum BUDA -->
