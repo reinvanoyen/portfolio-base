@@ -18,31 +18,66 @@
         justify-content: center;
         align-items: center;
         text-align: center;
-        width: $rule * 6;
-        height: $rule * 6;
+        width: $rule * 3.5;
+        height: $rule * 3.5;
         background-color: $color02;
         color: $color01;
         border-radius: 50%;
-        @include type-2;
-        text-transform: uppercase;
         transition: transform .25s $ease-in-out-squad;
         transform: scale(.9);
+        @include type-2;
+        font-size: 1rem;
+        text-transform: uppercase;
 
         @include block-modifier(alt-1)
         {
             top: 50%;
-            left: -$rule * 2;
-            margin-top: -$rule * 4;
+            left: -$rule;
+            margin-top: -$rule * 2;
             right: initial;
             bottom: initial;
+
+            @include breakpoint(2)
+            {
+                left: -$rule * 2;
+                margin-top: -$rule * 4;
+            }
         }
 
         @include block-modifier(alt-2)
         {
-            top: -$rule * 2;
-            left: -$rule * 2;
-            right: initial;
+            top: 50%;
+            right: -$rule;
+            margin-top: -$rule * 2;
+            left: initial;
             bottom: initial;
+
+            @include breakpoint(2)
+            {
+                top: -$rule * 2;
+                right: -$rule * 2;
+                margin-top: 0;
+            }
+        }
+
+        @include block-modifier(alt-3)
+        {
+            top: -$rule;
+            right: 25%;
+            left: initial;
+            bottom: initial;
+
+            @include breakpoint(2)
+            {
+                top: -$rule * 2;
+            }
+        }
+
+        @include breakpoint(2)
+        {
+            width: $rule * 6;
+            height: $rule * 6;
+            @include type-2;
         }
     }
 

@@ -1,7 +1,7 @@
 @include block(overlay)
 {
     position: fixed;
-    left: $side-width;
+    left: 0;
     top: 0;
     right: 0;
     bottom: 0;
@@ -14,11 +14,21 @@
     pointer-events: none;
     transition: opacity .25s;
 
+    @include breakpoint(2)
+    {
+        left: $side-width;
+    }
+
     @include element(content)
     {
-        width: 50%;
+        width: 90%;
         transform: scale(1.25);
         transition: transform 3s;
+
+        @include breakpoint(2)
+        {
+            width: 50%;
+        }
 
         @include global-modifier(open-overlay)
         {

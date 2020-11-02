@@ -1,26 +1,50 @@
 @include block(page-nav)
 {
     display: flex;
+    flex-wrap: wrap;
     width: 100%;
 
     @include element(prev)
     {
+        order: 1;
         display: flex;
         justify-content: flex-start;
-        width: 33.33%;
+        width: 50%;
+
+        @include breakpoint(2)
+        {
+            order: initial;
+            width: 33.33%
+        }
     }
 
     @include element(index)
     {
+        order: 3;
         display: flex;
         justify-content: center;
-        width: 33.33%;
+        width: 100%;
+        margin-top: $rule;
+
+        @include breakpoint(2)
+        {
+            order: initial;
+            width: 33.33%;
+            margin-top: 0;
+        }
     }
 
     @include element(next)
     {
+        order: 2;
         display: flex;
         justify-content: flex-end;
-        width: 33.33%;
+        width: 50%;
+
+        @include breakpoint(2)
+        {
+            order: initial;
+            width: 33.33%
+        }
     }
 }

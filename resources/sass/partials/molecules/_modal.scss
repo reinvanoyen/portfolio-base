@@ -6,8 +6,14 @@
     $hamburger-height: ($rule / 1.25) / 2;
 
     position: relative;
-    padding: $rule * 2 $rule * 3 $rule;
+    padding: $rule;
+    padding-top: $rule * 2;
     border: $border-width-01 solid $color02;
+
+    @include breakpoint(3)
+    {
+        padding: $rule * 2 $rule * 3 $rule;
+    }
 
     @include element(close)
     {

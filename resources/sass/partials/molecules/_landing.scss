@@ -27,7 +27,7 @@
     @include element(cta)
     {
         position: absolute;
-        top: 50%;
+        bottom: 12%;
         left: $rule;
         transition: transform .25s;
         transition-delay: 400ms;
@@ -37,20 +37,33 @@
             transform: scale(.35);
             transition-delay: 0s;
         }
+
+        @include breakpoint(2)
+        {
+            top: 50%;
+            bottom: initial;
+        }
     }
 
     @include element(deco)
     {
         position: absolute;
-        width: 28vw;
-        height: 28vw;
-        top: 25%;
+        width: 65vw;
+        height: 65vw;
+        top: 12%;
         right: 0;
         transition: transform .25s;
         transition-delay: 400ms;
         background-image: url('../../img/eye.png');
         background-repeat: no-repeat;
         background-size: contain;
+
+        @include breakpoint(2)
+        {
+            width: 28vw;
+            height: 28vw;
+            top: 25%;
+        }
 
         @include global-modifier(open)
         {

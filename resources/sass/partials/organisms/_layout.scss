@@ -2,8 +2,14 @@
 {
     width: 100%;
     min-height: 100vh;
-    padding-left: $side-width;
     overflow: hidden;
+    padding-top: $side-width;
+
+    @include breakpoint(2)
+    {
+        padding-left: $side-width;
+        padding-top: 0;
+    }
 
     @include element(side)
     {
@@ -11,14 +17,45 @@
         z-index: 9998;
         left: 0;
         top: 0;
-        bottom: 0;
         display: flex;
-        justify-content: center;
-        width: $side-width;
-        height: 100%;
-        transition: background-color .5s $ease-out-squad;
-        padding-top: $rule;
-        border-right: $border-width-01 solid $color02;
+        justify-content: flex-start;
+        align-items: center;
+        width: 100%;
+        height: $side-width;
+        border-bottom: $border-width-01 solid $color02;
+        padding: 0 $rule / 1.5;
+        transition: background-color .5s $ease-out-squad, transform .15s $ease-out-squad;
+
+        @for $i from 1 through length($theme-colors)
+        {
+            @include global-modifier(theme-#{$i})
+            {
+                background-color: rgba(nth($theme-colors, $i), .95);
+
+                @include breakpoint(2)
+                {
+                    background-color: transparent;
+                }
+            }
+        }
+
+        @include global-modifier(open)
+        {
+            transform: translateY(-100%);
+        }
+
+        @include breakpoint(2)
+        {
+            padding: 0;
+            padding-top: $rule;
+            align-items: flex-start;
+            justify-content: center;
+            border-bottom: 0;
+            border-right: $border-width-01 solid $color02;
+            width: $side-width;
+            height: 100%;
+            bottom: 0;
+        }
 
         @include breakpoint(3)
         {
@@ -64,8 +101,14 @@
     @include element(close)
     {
         position: absolute;
-        top: $rule * 3;
-        right: $rule * 4;
+        top: $rule * 1.5;
+        right: $rule * 1.5;
+
+        @include breakpoint(2)
+        {
+            top: $rule * 3;
+            right: $rule * 4;
+        }
     }
 
     @include element(content)

@@ -11,6 +11,9 @@
 
     @include element(offset)
     {
-        margin-right: $rule * 1.25;
+        @include breakpoint(2)
+        {
+            margin-right: $rule * 1.25;
+        }
     }
 }
