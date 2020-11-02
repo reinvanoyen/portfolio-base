@@ -256,7 +256,7 @@ class ProjectController extends Controller
                 'title' => 'Music Mania',
                 'body' => '
                     <p>
-                        Music Mania, opgericht in 1969, is de meest legendarische en alternatieve platenzaak in België.
+                        Music Mania, opgericht in 1969, is de meest legendarische alternatieve platenzaak in België.
                     </p>
                     <p>
                         Een custom made webshop dat de tactiliteit van de echte recordshop nog in zich draagt. Dit
