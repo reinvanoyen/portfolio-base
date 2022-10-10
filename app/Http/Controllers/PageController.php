@@ -2,8 +2,6 @@
 
 namespace App\Http\Controllers;
 
-use Illuminate\Http\Request;
-
 class PageController extends Controller
 {
     public function home()
@@ -11,28 +9,13 @@ class PageController extends Controller
         return view('pages.home');
     }
 
-    public function manifesto()
+    public function about()
     {
-        return view('pages.manifesto');
+        return view('pages.about');
     }
 
-    public function team()
+    public function contact()
     {
-        return view('pages.team');
-    }
-
-    public function portfolio()
-    {
-        return view('pages.portfolio');
-    }
-
-    public function inspiration()
-    {
-        return view('pages.inspiration');
-    }
-
-    public function experiment()
-    {
-        return view('pages.experiment');
+        return view('pages.contact');
     }
 }

@@ -8,13 +8,14 @@
     ],
     "license": "MIT",
     "require": {
-        "php": "^7.3",
+        "php": "^7.3|^8.0",
         "fideloper/proxy": "^4.2",
         "fruitcake/laravel-cors": "^2.0",
         "guzzlehttp/guzzle": "^7.0.1",
         "laravel/framework": "^8.0",
         "laravel/tinker": "^2.0",
-        "reinvanoyen/atomic-styleguide": "^1.0"
+        "reinvanoyen/atomic-styleguide": "^1.0",
+        "reinvanoyen/cmf": "dev-master"
     },
     "require-dev": {
         "facade/ignition": "^2.3.6",
@@ -38,7 +39,10 @@
             "App\\": "app/",
             "Database\\Factories\\": "database/factories/",
             "Database\\Seeders\\": "database/seeders/"
-        }
+        },
+        "files": [
+            "app/helpers.php"
+        ]
     },
     "autoload-dev": {
         "psr-4": {

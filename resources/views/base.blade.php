@@ -35,7 +35,8 @@
     <meta name="msapplication-TileImage" content="ms-icon-144x144.png" />
     <meta name="theme-color" content="#000000">
 
-    <!-- Made with love by Maïté Maekelberg & Rein Van Oyen for kunstencentrum BUDA -->
+    @yield('head')
+
 </head>
 <body class="@yield('body_classes')">
 @section('body')
@@ -50,13 +51,13 @@
                 <nav class="nav">
                     <ul class="nav__list">
                         <li class="nav__item">
-                            <a href="{{ route('manifesto') }}" class="nav-item">
-                                Manifesto
+                            <a href="{{ route('home') }}" class="nav-item">
+                                Home
                             </a>
                         </li>
                         <li class="nav__item">
-                            <a href="{{ route('team') }}" class="nav-item">
-                                Team
+                            <a href="{{ route('about') }}" class="nav-item">
+                                About
                             </a>
                         </li>
                         <li class="nav__item">
@@ -65,13 +66,8 @@
                             </a>
                         </li>
                         <li class="nav__item">
-                            <a href="{{ route('inspiration') }}" class="nav-item">
-                                Inspiratie
-                            </a>
-                        </li>
-                        <li class="nav__item">
-                            <a href="{{ route('experiment') }}" class="nav-item">
-                                Experiment
+                            <a href="{{ route('contact') }}" class="nav-item">
+                                Contact
                             </a>
                         </li>
                     </ul>

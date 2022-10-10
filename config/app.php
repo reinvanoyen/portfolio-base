@@ -165,6 +165,7 @@ return [
         /*
          * Package Service Providers...
          */
+        \ReinVanOyen\Cmf\CmfServiceProvider::class,
         \ReinVanOyen\AtomicStyleguide\AtomicStyleguideServiceProvider::class,
 
         /*
@@ -175,7 +176,7 @@ return [
         // App\Providers\BroadcastServiceProvider::class,
         App\Providers\EventServiceProvider::class,
         App\Providers\RouteServiceProvider::class,
-
+        App\Providers\CmfServiceProvider::class,
     ],
 
     /*

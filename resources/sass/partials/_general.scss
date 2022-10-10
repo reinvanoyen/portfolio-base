@@ -51,6 +51,11 @@ body
     @include type-default;
     transition: background-color 1.5s $ease-out-squad;
 
+    &.custom-theme
+    {
+        background-color: var(--primary-color);
+    }
+
     @for $i from 1 through length($theme-colors)
     {
         &.theme-#{$i}

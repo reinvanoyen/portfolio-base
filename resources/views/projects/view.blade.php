@@ -1,73 +1,47 @@
 @extends('page-base')
 
-@section('title', $project['title'].' – Creatief team zoekt BUDA')
-
-@section('body_classes', 'hello '.$project['theme'])
+@section('title', $project->title.' – '.config('app.name'))
 
 @section('page-title', 'Portfolio')
 
+@section('head')
+    <style type="text/css">
+        :root {
+            --primary-color: {{ $project->color }};
+        }
+    </style>
+@endsection
+
+@section('body_classes', 'hello custom-theme')
+
 @section('page-content')
+
     <article class="article">
         <div class="article__section article__section--full">
             <!-- Photo -->
             <div class="photo">
-                <img src="{{ $project['cover'] }}" alt="{{ $project['title'] }}" />
+                <img src="{{ conversion($project->photo, 'thumb') }}" alt="{{ $project->title }}" />
             </div>
         </div>
         <header class="article__header">
             <div class="article__title">
                 <!-- Title -->
                 <h1 class="title">
-                    {{ $project['title'] }}
+                    {{ $project->title }}
                 </h1>
             </div>
             <div class="article__intro article__intro--full">
-                <!-- Two col -->
-                <div class="two-col two-col--one-third">
-                    <div class="two-col__col">
-                        <!-- Wysiwyg -->
-                        <div class="wysiwyg">
-                            {!! $project['body'] !!}
-                        </div>
-                    </div>
-                    <div class="two-col__col">
-                        <!-- Data list -->
-                        <div class="data-list">
-                            <div class="data-list__group">
-                                @foreach ($project['team'] as $t)
-                                    <div class="data-list__item">
-                                        {{ $t }}
-                                    </div>
-                                @endforeach
-                            </div>
-                            <div class="data-list__group">
-                                @foreach ($project['tags'] as $t)
-                                    <div class="data-list__item">
-                                        {{ $t }}
-                                    </div>
-                                @endforeach
-                            </div>
-                            @if ($project['url'])
-                                <div class="data-list__group">
-                                    <div class="data-list__item">
-                                        <a href="{{ $project['url'] }}" title="Website {{ $project['title'] }}" target="_blank">
-                                            Bezoek website
-                                        </a>
-                                    </div>
-                                </div>
-                            @endif
-                        </div>
-
-                    </div>
+                <!-- Wysiwyg -->
+                <div class="wysiwyg">
+                    {{ $project->body }}
                 </div>
-
             </div>
         </header>
-        @foreach ($project['images'] as $image)
+        @foreach ($project->photos as $photo)
             <div class="article__section article__section--full">
                 <!-- Photo -->
                 <div class="photo">
-                    <img src="{{ $image }}" alt="{{ $project['title'] }}" />
+                    <img src="{{ conversion($photo->photo, 'thumb') }}" alt="{{ $project->title }}" />
                 </div>
             </div>
         @endforeach
